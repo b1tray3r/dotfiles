@@ -1,0 +1,36 @@
+function load_ansible(){
+  export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible.vault
+}
+
+function clean-git-branches()
+{
+  git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+}
+
+function load_keys()
+{
+  ssh-add ~/.ssh/id_a.borgardt@sdzecom.de
+  ssh-add ~/.ssh/id_borgardt.me
+}
+
+function system_update()
+{
+  sudo nala update
+  sudo nala upgrade
+}
+
+function runAct()
+{
+  act --secret-file ~/.config/act.vault -W $1
+}
+
+function testing-vm() {
+  export VAGRANT_DIR=/home/aborgardt/storage/sonic/workspace/aborgardt/vagrant
+  ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[127.0.0.1]:2222"
+  cd $VAGRANT_DIR && vagrant "$@"
+}
+
+function paperless_consume()
+{
+  ssh aborgardt@172.25.0.210 -C docker exec paperless-app python3 manage.py document_consumer --oneshot
+}
