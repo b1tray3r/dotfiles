@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = master
+[core]
+  autocrlf = input
+[commit]
+  gpgSign = true
+[tag]
+  gpgSign = true
