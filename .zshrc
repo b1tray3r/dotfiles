@@ -28,9 +28,13 @@ autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
 
-export GOPATH="/usr/local/go"
-export PATH="$GOPATH/bin:$PATH"
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH="$GOROOT/bin:$GOPATH:$PATH"
 
 export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
 
 eval "$(zellij setup --generate-auto-start zsh)"
+
+alias df='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+df config --local status.showUntrackedFiles no
