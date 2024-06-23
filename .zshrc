@@ -15,13 +15,15 @@ if [ -f ~/.alias ]; then
   source ~/.alias
 fi
 
-LS_COLORS='no=00;37:fi=00:di=00;33:ln=04;36:pi=40;33:so=01;35:bd=40;33;01:'
 export LS_COLORS
 
+
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
+export PATH="$GOROOT/bin:$GOPATH:$PATH"
+                                                                                                                                                                                                                       
+setopt appendhistory
+
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-alias ls="ls --color=auto"
-alias ll='ls -alF'
-alias gce='gh copilot explain'
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
@@ -31,11 +33,4 @@ eval "$(starship init zsh)"
 autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
-
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH="$GOROOT/bin:$GOPATH:$PATH"
-
-export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
-
 eval "$(zellij setup --generate-auto-start zsh)"
