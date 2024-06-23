@@ -1,7 +1,9 @@
 [user]
   signingkey = alexander.borgardt@gmail.com
-	email = alexander.borgardt@gmail.com 
+	email = alexander.borgardt@gmail.com
 	name = aborgardt
+[includeIf "gitdir:~/storage/workspace/git.sdzecom-services.de/"]
+  path = .gitconfig-git.sdzecom-services.de
 [init]
 	defaultBranch = master
 [core]
@@ -10,5 +12,3 @@
   gpgSign = true
 [tag]
   gpgSign = true
-[safe]
-	directory = /home/aborgardt/nfs/appdata/100/stacks/homepage/data
