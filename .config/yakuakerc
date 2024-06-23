@@ -12,7 +12,7 @@ Translucency=true
 OpenAfterStart=true
 
 [Desktop Entry]
-DefaultProfile=aborgardt.profile
+DefaultProfile=fokus.profile
 
 [Dialogs]
 FirstRun=false
