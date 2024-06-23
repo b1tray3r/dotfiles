@@ -11,6 +11,10 @@ if [ -d ~/.shell ]; then
     done
 fi
 
+if [ -f ~/.alias ]; then
+  source ~/.alias
+fi
+
 LS_COLORS='no=00;37:fi=00:di=00;33:ln=04;36:pi=40;33:so=01;35:bd=40;33;01:'
 export LS_COLORS
 
@@ -35,6 +39,3 @@ export PATH="$GOROOT/bin:$GOPATH:$PATH"
 export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
 
 eval "$(zellij setup --generate-auto-start zsh)"
-
-alias df='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-df config --local status.showUntrackedFiles no
