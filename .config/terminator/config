@@ -1,6 +1,9 @@
 [global_config]
   tab_position = hidden
   title_at_bottom = True
+  title_transmit_bg_color = "#241f31"
+  title_receive_bg_color = "#3d3846"
+  title_inactive_bg_color = "#241f31"
 [keybindings]
   zoom_out = <Primary>minus
   zoom_normal = <Primary>0
@@ -15,7 +18,6 @@
   go_right = ""
   rotate_cw = ""
   rotate_ccw = ""
-  split_auto = ""
   split_horiz = ""
   split_vert = ""
   close_term = ""
@@ -39,7 +41,6 @@
   hide_window = ""
   group_all = ""
   ungroup_all = ""
-  ungroup_win = ""
   group_tab = ""
   ungroup_tab = ""
   new_window = ""
@@ -50,17 +51,14 @@
   edit_tab_title = ""
   edit_terminal_title = ""
   layout_launcher = ""
-  preferences_keybindings = ""
 [profiles]
   [[default]]
     background_darkness = 0.85
     background_type = transparent
+    cursor_color = "#aaaaaa"
     scroll_on_keystroke = False
     scrollback_infinite = True
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
-    title_transmit_bg_color = "#241f31"
-    title_use_system_font = False
-    title_font = SauceCodePro Nerd Font Medium 12
 [layouts]
   [[default]]
     [[[window0]]]
