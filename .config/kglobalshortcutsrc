@@ -7,6 +7,10 @@ switch-to-activity-aad22435-d13d-4a02-a469-ddfc455111b6=none,none,Zu Aktivität 
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Auf nächste Tastaturbelegung umschalten
 _k_friendly_name=Umschaltung der Tastaturbelegung
 
+[jumpapp.desktop]
+_k_friendly_name=jumpapp terminator
+_launch=Alt+D,none,jumpapp terminator
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Screenreader ein-/ausschalten
 _k_friendly_name=Zugangshilfen
@@ -21,10 +25,6 @@ _k_friendly_name=Touchpad
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Systemaktivität anzeigen
 _k_friendly_name=KDE Daemon
 display=Display\tMeta+P,Display\tMeta+P,Anzeige wechseln
-
-[khotkeys]
-_k_friendly_name=Dienst für eigene Kurzbefehle
-{ce7cbecd-1169-48cf-9567-c59047a5cae5}=Alt+D,none,terminator
 
 [kmix]
 _k_friendly_name=Lautstärke
