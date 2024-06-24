@@ -17,7 +17,6 @@ fi
 
 export LS_COLORS
 
-
 export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
 export PATH="$GOROOT/bin:$GOPATH:$PATH"
 setopt appendhistory
