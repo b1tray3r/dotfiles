@@ -27,5 +27,11 @@ zstyle ':completion:*' menu select
 fpath+=~/.zfunc
 
 eval "$(zoxide init zsh)"
-# eval "$(zellij setup --generate-auto-start zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/omp.yml)"
+
+case $TERM in
+    xterm*)
+        precmd () {print -Pn "\e]0;${PWD/$HOME/\~}\a"}
+        ;;
+esac
+
