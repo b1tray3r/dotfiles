@@ -37,7 +37,7 @@ mute=Volume Mute,Volume Mute,Stummschalten
 
 [ksmserver]
 Halt Without Confirmation=none,,Ohne Rückfrage herunterfahren
-Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tScreensaver,Sitzung sperren
+Lock Session=none,Meta+L\tScreensaver,Sitzung sperren
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Abmelden
 Log Out Without Confirmation=none,,Ohne Rückfrage abmelden
 Reboot Without Confirmation=none,,Ohne Rückfrage neu starten
@@ -60,7 +60,7 @@ MoveZoomDown=none,none,Vergrößerten Bereich nach unten verschieben
 MoveZoomLeft=none,none,Vergrößerten Bereich nach links verschieben
 MoveZoomRight=none,none,Vergrößerten Bereich nach rechts verschieben
 MoveZoomUp=none,none,Vergrößerten Bereich nach oben verschieben
-Overview=Meta+W,Meta+W,Übersicht umschalten
+Overview=none,Meta+W,Übersicht umschalten
 Setup Window Shortcut=none,,Kurzbefehl für Fenster einrichten
 Show Desktop=Meta+D,Meta+D,Blick auf die Arbeitsfläche
 ShowDesktopGrid=Ctrl+F8,Meta+F8,Arbeitsflächen-Raster anzeigen
@@ -301,4 +301,4 @@ _k_friendly_name=Wacom-Tablett
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=,F12,Yakuake einfahren/ausfahren
+toggle-window-state=none,F12,Yakuake einfahren/ausfahren

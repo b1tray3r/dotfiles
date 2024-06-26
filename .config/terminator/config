@@ -1,9 +1,14 @@
 [global_config]
+  borderless = True
   tab_position = hidden
+  broadcast_default = all
+  scroll_tabbar = True
+  homogeneous_tabbar = False
   title_at_bottom = True
   title_transmit_bg_color = "#241f31"
   title_receive_bg_color = "#3d3846"
   title_inactive_bg_color = "#241f31"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, ActivityWatch
   title_use_system_font = False
   title_font = SauceCodePro Nerd Font 10
 [keybindings]
@@ -14,24 +19,24 @@
   cycle_prev = ""
   go_next = ""
   go_prev = ""
-  go_up = ""
-  go_down = ""
-  go_left = ""
-  go_right = ""
+  go_up = <Super>j
+  go_down = <Super>k
+  go_left = <Super>h
+  go_right = <Super>l
   rotate_cw = ""
   rotate_ccw = ""
-  split_horiz = ""
-  split_vert = ""
-  close_term = ""
+  split_horiz = <Super>underscore
+  split_vert = <Super>apostrophe
+  close_term = <Super>w
   copy = <Primary><Shift>c
   paste = <Primary><Shift>v
   toggle_scrollbar = ""
   search = ""
   close_window = ""
-  resize_up = ""
-  resize_down = ""
-  resize_left = ""
-  resize_right = ""
+  resize_up = <Shift><Super>KP_Subtract
+  resize_down = <Shift><Super>KP_Add
+  resize_left = <Super>KP_Subtract
+  resize_right = <Super>KP_Add
   move_tab_right = ""
   move_tab_left = ""
   toggle_zoom = ""
@@ -56,16 +61,17 @@
 [profiles]
   [[default]]
     icon_bell = False
-    background_darkness = 0.85
+    background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = SauceCodePro Nerd Font Propo Semi-Bold 10
     show_titlebar = False
+    scrollbar_position = hidden
     scroll_on_keystroke = False
-    scrollback_infinite = True
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollback_lines = 10000
     use_system_font = False
     use_theme_colors = True
+    bold_is_bright = True
 [layouts]
   [[default]]
     [[[window0]]]
