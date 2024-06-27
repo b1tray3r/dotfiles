@@ -1,9 +1,6 @@
 [global_config]
-  borderless = True
-  tab_position = hidden
+  tab_position = bottom
   broadcast_default = all
-  scroll_tabbar = True
-  homogeneous_tabbar = False
   title_at_bottom = True
   title_transmit_bg_color = "#241f31"
   title_receive_bg_color = "#3d3846"
@@ -14,7 +11,7 @@
 [keybindings]
   zoom_out = <Primary>minus
   zoom_normal = <Primary>0
-  new_tab = ""
+  new_tab = <Alt>t
   cycle_next = ""
   cycle_prev = ""
   go_next = ""

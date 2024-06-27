@@ -9,7 +9,7 @@ _k_friendly_name=Umschaltung der Tastaturbelegung
 
 [jumpapp.desktop]
 _k_friendly_name=jumpapp terminator
-_launch=Alt+D,none,jumpapp terminator
+_launch=Ctrl+Return,none,jumpapp terminator
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Screenreader ein-/ausschalten
