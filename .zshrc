@@ -18,7 +18,8 @@ fi
 export LS_COLORS
 
 export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
-export PATH="$GOROOT/bin:$GOPATH:$PATH"
+export PATH="$GOROOT/bin:$GOPATH:/opt/node/bin:$PATH"
+
 setopt appendhistory
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -29,9 +30,4 @@ fpath+=~/.zfunc
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/omp.yml)"
 
-# case $TERM in
-#     xterm*)
-#         precmd () {print -Pn "\e]0;${PWD/$HOME/\~}\a"}
-#         ;;
-# esac
 preexec() { print -Pn "\e]0; %~ \[$1\]\a" }
