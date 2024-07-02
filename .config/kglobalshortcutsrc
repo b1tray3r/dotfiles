@@ -25,8 +25,6 @@ display=Display\tMeta+P,Display\tMeta+P,Anzeige wechseln
 
 [khotkeys]
 _k_friendly_name=Dienst für eigene Kurzbefehle
-{6e67f2e2-c731-41a5-8272-5bf21fa6c19e}=Alt+D,none,terminator
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Suchen
 {d76c1c37-6668-4097-a332-7329967177bf}=Alt+D,none,alacritty
 
 [kmix]
@@ -269,7 +267,7 @@ activate task manager entry 7=Meta+7,Meta+7,Fensterleisteneintrag 7 aktivieren
 activate task manager entry 8=Meta+8,Meta+8,Fensterleisteneintrag 8 aktivieren
 activate task manager entry 9=Meta+9,Meta+9,Fensterleisteneintrag 9 aktivieren
 activate widget 3=Alt+F1,none,Miniprogramm Anwendungsstarter aktivieren
-activate widget 5=Alt+F1,none,Miniprogramm Anwendungsstarter aktivieren
+activate widget 5=,none,Miniprogramm Anwendungsstarter aktivieren
 clear-history=none,,Bisherigen Inhalt der Zwischenablage löschen
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatisches Aufklappmenü für Aktionen
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Tastaturfokus zwischen Kontrollleisten umschalten
