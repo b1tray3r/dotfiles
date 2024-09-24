@@ -20,3 +20,9 @@ rm lazygit.tar.gz lazygit
 wget https://go.dev/dl/go1.23.1.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
 rm go1.23.1.linux-amd64.tar.gz
+
+# zoxide
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+
+# starship prompt
+curl -sS https://starship.rs/install.sh | sh
