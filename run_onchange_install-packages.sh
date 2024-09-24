@@ -3,6 +3,31 @@
 # install required packages
 sudo apt-get install -y build-essential ripgrep zsh
 
+# nerd font
+declare -a fonts=(
+    SourceCodePro
+)
+
+version='2.1.0'
+fonts_dir="${HOME}/.local/share/fonts"
+
+if [[ ! -d "$fonts_dir" ]]; then
+    mkdir -p "$fonts_dir"
+fi
+
+for font in "${fonts[@]}"; do
+    zip_file="${font}.zip"
+    download_url="https://github.com/ryanoasis/nerd-fonts/releases/download/v${version}/${zip_file}"
+    echo "Downloading $download_url"
+    wget "$download_url"
+    unzip "$zip_file" -d "$fonts_dir"
+    rm "$zip_file"
+done
+
+find "$fonts_dir" -name '*Windows Compatible*' -delete
+
+fc-cache -fv
+
 # install nvim binary
 sudo wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim.appimage -O /usr/sbin/local/nvim
 sudo chmod +x /usr/local/sbin/nvim
