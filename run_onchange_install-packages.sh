@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install required packages
-sudo apt-get install -y build-essential ripgrep zsh
+sudo apt-get install -y build-essential python3-pip python3-venv ripgrep zsh
 
 # nerd font
 declare -a fonts=(
