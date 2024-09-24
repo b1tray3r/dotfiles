@@ -1,0 +1,9 @@
+[user]
+  email = alexander.borgardt@gmail.com
+  name = aborgardt
+[init]
+  defaultBranch = master
+[core]
+  autocrlf = input
+[pull]
+  rebase = true
