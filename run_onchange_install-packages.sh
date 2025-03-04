@@ -30,9 +30,7 @@ fc-cache -fv
 
 # install nvim binary
 sudo wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim.appimage -O /usr/sbin/local/nvim
-sudo chmod +x /usr/local/sbin/nvim
-mkdir ~/.config/nvim
-git clone https://github.com/b1tray3r/nvim.git ~/.config/nvim
+sudo chmod +x /usr/sbin/local/nvim
 
 # Lazygit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
