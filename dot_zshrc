@@ -27,5 +27,8 @@ fpath+=~/.zfunc
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
-preexec() { print -Pn "\e]0; %~ \[$1\]\a" }
+if [[ "$ALACRITTY_WINDOW_ID" != "" ]]; then
+    [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+fi
 
+preexec() { print -Pn "\e]0; %~ \[$1\]\a" }

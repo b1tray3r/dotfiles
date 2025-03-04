@@ -1,32 +1,20 @@
 #!/bin/bash
 
 # install required packages
-sudo apt-get install -y build-essential python3-pip python3-venv ripgrep zsh
+sudo apt-get install -y build-essential python3-pip python3-venv ripgrep zsh tmux
 
-# nerd font
-declare -a fonts=(
-    SourceCodePro
-)
+bash installNerdFont.sh https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/SourceCodePro.zip
 
-version='2.1.0'
-fonts_dir="${HOME}/.local/share/fonts"
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-if [[ ! -d "$fonts_dir" ]]; then
-    mkdir -p "$fonts_dir"
-fi
-
-for font in "${fonts[@]}"; do
-    zip_file="${font}.zip"
-    download_url="https://github.com/ryanoasis/nerd-fonts/releases/download/v${version}/${zip_file}"
-    echo "Downloading $download_url"
-    wget "$download_url"
-    unzip "$zip_file" -d "$fonts_dir"
-    rm "$zip_file"
-done
-
-find "$fonts_dir" -name '*Windows Compatible*' -delete
-
-fc-cache -fv
+# start a server but don't attach to it
+tmux start-server
+# create a new session but don't attach to it either
+tmux new-session -d
+# install the plugins
+~/.tmux/plugins/tpm/scripts/install_plugins.sh
+# killing the server is not required, I guess
+tmux kill-server
 
 # install nvim binary
 sudo wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim.appimage -O /usr/sbin/local/nvim
