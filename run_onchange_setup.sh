@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install required packages
-sudo apt-get install -y build-essential python3-pip python3-venv ripgrep zsh tmux
+sudo apt-get install -y build-essential python3-pip python3-venv yq ripgrep zsh tmux
 
 bash installNerdFont.sh https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/SourceCodePro.zip
 
