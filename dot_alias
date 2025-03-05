@@ -1,3 +1,4 @@
 alias ls="ls --color=auto"
 alias ll='ls -alF'
 alias vim="nvim"
+alias gg="lazygit"
