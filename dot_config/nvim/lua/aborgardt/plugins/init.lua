@@ -95,9 +95,9 @@ return {
 	},
 	{ -- small and pretty status line
 		"nvim-lualine/lualine.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons", "catppuccin/nvim" },
+		dependencies = { "nvim-tree/nvim-web-devicons", "folke/tokyonight.nvim" },
 		config = function()
-			require("lualine").setup({ options = { theme = "catppuccin" } })
+			require("lualine").setup({ options = { theme = "tokyonight" } })
 		end,
 	},
 	{ -- file tree and open buffer list
@@ -153,8 +153,6 @@ return {
 			cf = function(testCurrentFunction)
 				local cb = function(path)
 					if path then
-						-- `xdg-open|open` command performs the same function as double-clicking on the file.
-						-- change from `xdg-open` to `open` on MacOSx
 						vim.cmd(':silent exec "!xdg-open ' .. path .. '"')
 					end
 				end
@@ -165,11 +163,6 @@ return {
 					goc.Coverage(nil, cb)
 				end
 			end
-
-			-- default colors
-			-- vim.api.nvim_set_hl(0, 'GocNormal', {link='Comment'})
-			-- vim.api.nvim_set_hl(0, 'GocCovered', {link='String'})
-			-- vim.api.nvim_set_hl(0, 'GocUncovered', {link='Error'})
 		end,
 	},
 	{
@@ -194,7 +187,6 @@ return {
 				},
 				filetypes = {
 					go = true,
-					lua = true,
 					yaml = false,
 					markdown = false,
 					help = false,
