@@ -93,10 +93,10 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- TIP: Disable arrow keys in normal mode
--- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
--- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
--- vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
--- vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
+vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
+vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
+vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
@@ -155,24 +155,6 @@ require('lazy').setup({
       },
     },
   },
-  { -- Useful plugin to show you pending keybinds.
-    'folke/which-key.nvim',
-    event = 'VimEnter', -- Sets the loading event to 'VimEnter'
-    config = function() -- This is the function that runs, AFTER loading
-      require('which-key').setup()
-      -- Document existing key chains
-
-      require('which-key').add {
-        { '<leader>c', group = '[C]ode' },
-        { '<leader>d', group = '[D]ocument' },
-        { '<leader>r', group = '[R]ename' },
-        { '<leader>f', group = '[F]ind' },
-        { '<leader>w', group = '[W]orkspace' },
-        { '<leader>t', group = '[T]oggle' },
-        { '<leader>l', group = '[L]azy [G]it', mode = { 'n', 'v' } },
-      }
-    end,
-  },
   { -- Fuzzy Finder (files, lsp, etc)
     'nvim-telescope/telescope.nvim',
     event = 'VimEnter',
@@ -195,7 +177,7 @@ require('lazy').setup({
       { 'nvim-telescope/telescope-ui-select.nvim' },
 
       -- Useful for getting pretty icons, but requires a Nerd Font.
-      { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
+      { 'nvim-tree/nvim-web-devicons',            enabled = vim.g.have_nerd_font },
     },
     config = function()
       require('telescope').setup {
@@ -223,7 +205,6 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>fs', builtin.builtin, { desc = '[F]ind [S]elect Telescope' })
       vim.keymap.set('n', '<leader>fw', builtin.grep_string, { desc = '[F]ind current [W]ord' })
       vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = '[F]ind by [G]rep' })
-      vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = '[ ] Find existing buffers' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<C-f>', function()
@@ -261,8 +242,8 @@ require('lazy').setup({
       { 'williamboman/mason.nvim', config = true },
       'williamboman/mason-lspconfig.nvim',
       'WhoIsSethDaniel/mason-tool-installer.nvim',
-      { 'j-hui/fidget.nvim', opts = {} },
-      { 'folke/neodev.nvim', opts = {} },
+      { 'j-hui/fidget.nvim',       opts = {} },
+      { 'folke/neodev.nvim',       opts = {} },
     },
     config = function()
       vim.api.nvim_create_autocmd('LspAttach', {
@@ -469,7 +450,6 @@ require('lazy').setup({
       }
     end,
   },
-
   -- Highlight todo, notes, etc in comments
   {
     'folke/todo-comments.nvim',
@@ -497,9 +477,159 @@ require('lazy').setup({
       require('nvim-treesitter.configs').setup(opts)
     end,
   },
+  {
+    'folke/tokyonight.nvim',
+    priority = 1000, -- Make sure to load this before all the other start plugins.
+    config = function()
+      require('tokyonight').setup {
+        style = 'night',
+        transparent = false,
+      }
+    end,
+    init = function()
+      vim.cmd.colorscheme 'tokyonight-night'
+      -- You can configure highlights by doing something like:
+      vim.cmd.hi 'Comment gui=none'
+    end,
+  },
+  {
+    'akinsho/toggleterm.nvim',
+    version = '*',
+    config = {
+      direction = 'vertical',
+    },
+    keys = {
+      { '<leader>tf', ':ToggleTerm direction=float size=80<cr>', desc = 'ToggleTerm' },
+      { '<leader>tt', ':ToggleTerm size=80<cr>',                 desc = 'ToggleTerm' },
+    },
+  },
+  { -- LazyGit in my NeoVim
+    'kdheepak/lazygit.nvim',
+    cmd = {
+      'LazyGit',
+      'LazyGitConfig',
+      'LazyGitCurrentFile',
+      'LazyGitFilter',
+      'LazyGitFilterCurrentFile',
+    },
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+    keys = {
+      { '<leader>gg', '<cmd>LazyGit<cr>', desc = 'LazyGit' },
+    },
+  },
+  { -- Jump around like a kangaroo
+    'ggandor/leap.nvim',
+    lazy = false,
+    opts = {
+      case_sensitive = false,
+      safe_labels = {},
+      max_phase_one_targets = 0,
+      max_highlighted_traversal_targets = 10,
+      labels = 'jklasdfghqwertyuiopzxcvbnm',
+    },
+
+    config = function(_, opts)
+      local leap = require 'leap'
+      leap.setup(opts)
+
+      -- Bidirectional search
+      vim.keymap.set('n', 's', function()
+        leap.leap { target_windows = { vim.api.nvim_get_current_win() } }
+      end)
+      vim.keymap.set('x', 's', function()
+        leap.leap { target_windows = { vim.api.nvim_get_current_win() } }
+      end)
+    end,
+  },
+  { -- small and pretty status line
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons', 'folke/tokyonight.nvim' },
+    config = function()
+      require('lualine').setup { options = { theme = 'tokyonight' } }
+    end,
+  },
+  {
+    'rafaelsq/nvim-goc.lua',
+    config = function()
+      -- if set, when we switch between buffers, it will not split more than once. It will switch to the existing buffer instead
+      vim.opt.switchbuf = 'useopen'
+
+      local goc = require 'nvim-goc'
+      goc.setup { verticalSplit = true }
+
+      vim.keymap.set('n', '<Leader>cf', goc.Coverage, { silent = true })      -- run for the whole File
+      vim.keymap.set('n', '<Leader>ct', goc.CoverageFunc, { silent = true })  -- run only for a specific Test unit
+      vim.keymap.set('n', '<Leader>cc', goc.ClearCoverage, { silent = true }) -- clear coverage highlights
+
+      -- If you need custom arguments, you can supply an array as in the example below.
+      vim.keymap.set('n', '<Leader>crf', function()
+        goc.Coverage { '-race', '-count=1' }
+      end, { silent = true })
+      vim.keymap.set('n', '<Leader>crt', function()
+        goc.CoverageFunc { '-race', '-count=1' }
+      end, { silent = true })
+
+      cf = function(testCurrentFunction)
+        local cb = function(path)
+          if path then
+            vim.cmd(':silent exec "!xdg-open ' .. path .. '"')
+          end
+        end
+
+        if testCurrentFunction then
+          goc.CoverageFunc(nil, cb, 0)
+        else
+          goc.Coverage(nil, cb)
+        end
+      end
+    end,
+  },
+  {
+    "ThePrimeagen/harpoon",
+    branch = "harpoon2",
+    opts = {
+      menu = {
+        width = vim.api.nvim_win_get_width(0) - 4,
+      },
+      settings = {
+        save_on_toggle = true,
+      },
+    },
+    keys = function()
+      local keys = {
+        {
+          "<leader>H",
+          function()
+            require("harpoon"):list():add()
+          end,
+          desc = "Harpoon File",
+        },
+        {
+          "<leader>h",
+          function()
+            local harpoon = require("harpoon")
+            harpoon.ui:toggle_quick_menu(harpoon:list())
+          end,
+          desc = "Harpoon Quick Menu",
+        },
+      }
+
+      for i = 1, 5 do
+        table.insert(keys, {
+          "<leader>" .. i,
+          function()
+            require("harpoon"):list():select(i)
+          end,
+          desc = "Harpoon to File " .. i,
+        })
+      end
+      return keys
+    end,
+  },
   require 'kickstart.plugins.debug',
   require 'kickstart.plugins.autopairs',
-  { import = 'aborgardt.plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
