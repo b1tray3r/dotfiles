@@ -93,10 +93,10 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- TIP: Disable arrow keys in normal mode
-vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
-vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
-vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+-- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
+-- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
+-- vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
+-- vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
@@ -177,7 +177,7 @@ require('lazy').setup({
       { 'nvim-telescope/telescope-ui-select.nvim' },
 
       -- Useful for getting pretty icons, but requires a Nerd Font.
-      { 'nvim-tree/nvim-web-devicons',            enabled = vim.g.have_nerd_font },
+      { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
     },
     config = function()
       require('telescope').setup {
@@ -242,8 +242,8 @@ require('lazy').setup({
       { 'williamboman/mason.nvim', config = true },
       'williamboman/mason-lspconfig.nvim',
       'WhoIsSethDaniel/mason-tool-installer.nvim',
-      { 'j-hui/fidget.nvim',       opts = {} },
-      { 'folke/neodev.nvim',       opts = {} },
+      { 'j-hui/fidget.nvim', opts = {} },
+      { 'folke/neodev.nvim', opts = {} },
     },
     config = function()
       vim.api.nvim_create_autocmd('LspAttach', {
@@ -500,7 +500,7 @@ require('lazy').setup({
     },
     keys = {
       { '<leader>tf', ':ToggleTerm direction=float size=80<cr>', desc = 'ToggleTerm' },
-      { '<leader>tt', ':ToggleTerm size=80<cr>',                 desc = 'ToggleTerm' },
+      { '<leader>tt', ':ToggleTerm size=80<cr>', desc = 'ToggleTerm' },
     },
   },
   { -- LazyGit in my NeoVim
@@ -559,8 +559,8 @@ require('lazy').setup({
       local goc = require 'nvim-goc'
       goc.setup { verticalSplit = true }
 
-      vim.keymap.set('n', '<Leader>cf', goc.Coverage, { silent = true })      -- run for the whole File
-      vim.keymap.set('n', '<Leader>ct', goc.CoverageFunc, { silent = true })  -- run only for a specific Test unit
+      vim.keymap.set('n', '<Leader>cf', goc.Coverage, { silent = true }) -- run for the whole File
+      vim.keymap.set('n', '<Leader>ct', goc.CoverageFunc, { silent = true }) -- run only for a specific Test unit
       vim.keymap.set('n', '<Leader>cc', goc.ClearCoverage, { silent = true }) -- clear coverage highlights
 
       -- If you need custom arguments, you can supply an array as in the example below.
@@ -587,8 +587,8 @@ require('lazy').setup({
     end,
   },
   {
-    "ThePrimeagen/harpoon",
-    branch = "harpoon2",
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
     opts = {
       menu = {
         width = vim.api.nvim_win_get_width(0) - 4,
@@ -600,29 +600,29 @@ require('lazy').setup({
     keys = function()
       local keys = {
         {
-          "<leader>H",
+          '<leader>H',
           function()
-            require("harpoon"):list():add()
+            require('harpoon'):list():add()
           end,
-          desc = "Harpoon File",
+          desc = 'Harpoon File',
         },
         {
-          "<leader>h",
+          '<leader>h',
           function()
-            local harpoon = require("harpoon")
+            local harpoon = require 'harpoon'
             harpoon.ui:toggle_quick_menu(harpoon:list())
           end,
-          desc = "Harpoon Quick Menu",
+          desc = 'Harpoon Quick Menu',
         },
       }
 
       for i = 1, 5 do
         table.insert(keys, {
-          "<leader>" .. i,
+          '<leader>' .. i,
           function()
-            require("harpoon"):list():select(i)
+            require('harpoon'):list():select(i)
           end,
-          desc = "Harpoon to File " .. i,
+          desc = 'Harpoon to File ' .. i,
         })
       end
       return keys
