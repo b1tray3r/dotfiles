@@ -2,3 +2,4 @@ alias ls="ls --color=auto"
 alias ll='ls -alF'
 alias vim="nvim"
 alias gg="lazygit"
+alias sandbox="docker run --rm -d --name webtop -e PUID=$(id -u) -e PGID=$(id -g) -e TZ=Europe/Berlin -v "$HOME":/other -p 3000:3000 --shm-size=2g ghcr.io/linuxserver/webtop:ubuntu-xfce"
