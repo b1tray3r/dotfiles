@@ -52,3 +52,9 @@ function cgb()
   git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 }
 
+# terminal hacks
+# Fix to ctrl+r in terminal / kitty
+bindkey '^R' history-incremental-search-backward
+# Added ctrl+p for good measure, since that was also broken
+bindkey '^P' up-history
+
