@@ -1,17 +1,14 @@
 # dotfiles
 
-My configuration for Kubuntu linux.
+These dotfiles are configured to be used with [stow](https://www.gnu.org/software/stow/).
 
-## Chezmoi
+The newest configuration can be found in the hyprland folder which I use with Archlinux (...btw).
 
-This repository utilizes [chezmoi](https://www.chezmoi.io) to manage all the things related to configuration and productivity.
+## Setup
 
-### Init
-
-After installing chezmoi according to the documentation this repository can be initialized with:
+Clone this repo, enter it and execute stow:
 
 ```bash
-chezmoi init git@github.com:b1tray3r/dotfiles.git
+$ stow -d $PWD/hyprland -t $HOME <subfolder>
 ```
 
-The script `run_onchange_install-packages.sh` will install all required software to run alacritty with starship, neovim, zoxide, lazygit and a nerd font.
