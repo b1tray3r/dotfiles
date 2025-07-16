@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/workspace/"]
+  path = ~/workspace/.gitconfig
+[init]
+  defaultBranch = master
+[core]
+  autocrlf = input
+[pull]
+  rebase = true
