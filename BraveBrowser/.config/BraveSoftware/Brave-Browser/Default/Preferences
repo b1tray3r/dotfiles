@@ -1,0 +1,3143 @@
+{
+  "accessibility": {
+    "captions": {
+      "headless_caption_enabled": false
+    }
+  },
+  "alternate_error_pages": {
+    "backup": false
+  },
+  "announcement_notification_service_first_run_time": "13396560363460750",
+  "apps": {
+    "shortcuts_arch": "",
+    "shortcuts_version": 0
+  },
+  "autocomplete": {
+    "retention_policy_last_version": 138
+  },
+  "autofill": {
+    "last_version_deduped": 138
+  },
+  "bookmark": {
+    "storage_computation_last_update": "13397257600844279"
+  },
+  "brave": {
+    "accelerators": {
+      "33000": [
+        "BrowserBack",
+        "Alt+ArrowLeft",
+        "AltGr+ArrowLeft"
+      ],
+      "33001": [
+        "BrowserForward",
+        "Alt+ArrowRight",
+        "AltGr+ArrowRight"
+      ],
+      "33002": [
+        "Control+KeyR",
+        "F5",
+        "BrowserRefresh"
+      ],
+      "33003": [
+        "BrowserHome",
+        "Alt+Home"
+      ],
+      "33007": [
+        "Control+Shift+KeyR",
+        "Control+F5",
+        "Shift+F5",
+        "Control+BrowserRefresh",
+        "Shift+BrowserRefresh"
+      ],
+      "34000": [
+        "Control+KeyN"
+      ],
+      "34001": [
+        "Control+Shift+KeyN"
+      ],
+      "34012": [
+        "Control+Shift+KeyW",
+        "Alt+F4"
+      ],
+      "34014": [
+        "AppNew",
+        "Control+KeyT"
+      ],
+      "34015": [
+        "Control+KeyW",
+        "Control+F4",
+        "AppClose"
+      ],
+      "34016": [
+        "Control+Tab",
+        "Control+PageDown"
+      ],
+      "34017": [
+        "Control+Shift+Tab",
+        "Control+PageUp"
+      ],
+      "34018": [
+        "Control+Digit1",
+        "Control+Numpad1",
+        "Alt+Digit1",
+        "Alt+Numpad1"
+      ],
+      "34019": [
+        "Control+Digit2",
+        "Control+Numpad2",
+        "Alt+Digit2",
+        "Alt+Numpad2"
+      ],
+      "34020": [
+        "Control+Digit3",
+        "Control+Numpad3",
+        "Alt+Digit3",
+        "Alt+Numpad3"
+      ],
+      "34021": [
+        "Control+Digit4",
+        "Control+Numpad4",
+        "Alt+Digit4",
+        "Alt+Numpad4"
+      ],
+      "34022": [
+        "Control+Digit5",
+        "Control+Numpad5",
+        "Alt+Digit5",
+        "Alt+Numpad5"
+      ],
+      "34023": [
+        "Control+Digit6",
+        "Control+Numpad6",
+        "Alt+Digit6",
+        "Alt+Numpad6"
+      ],
+      "34024": [
+        "Control+Digit7",
+        "Control+Numpad7",
+        "Alt+Digit7",
+        "Alt+Numpad7"
+      ],
+      "34025": [
+        "Control+Digit8",
+        "Control+Numpad8",
+        "Alt+Digit8",
+        "Alt+Numpad8"
+      ],
+      "34026": [
+        "Control+Digit9",
+        "Control+Numpad9",
+        "Alt+Digit9",
+        "Alt+Numpad9"
+      ],
+      "34028": [
+        "Control+Shift+KeyT"
+      ],
+      "34030": [
+        "F11"
+      ],
+      "34032": [
+        "Control+Shift+PageDown"
+      ],
+      "34033": [
+        "Control+Shift+PageUp"
+      ],
+      "35000": [
+        "Control+KeyD"
+      ],
+      "35001": [
+        "Control+Shift+KeyD"
+      ],
+      "35002": [
+        "Control+KeyU"
+      ],
+      "35003": [
+        "Control+KeyP"
+      ],
+      "35004": [
+        "Control+KeyS"
+      ],
+      "35007": [
+        "Control+Shift+KeyP"
+      ],
+      "35031": [
+        "Control+Shift+KeyS"
+      ],
+      "37000": [
+        "Control+KeyF"
+      ],
+      "37001": [
+        "Control+KeyG",
+        "F3"
+      ],
+      "37002": [
+        "Control+Shift+KeyG",
+        "Shift+F3"
+      ],
+      "37003": [
+        "Escape"
+      ],
+      "38001": [
+        "Control+Equal",
+        "Control+NumpadAdd",
+        "Control+Shift+Equal"
+      ],
+      "38002": [
+        "Control+Digit0",
+        "Control+Numpad0"
+      ],
+      "38003": [
+        "Control+Minus",
+        "Control+NumpadSubtract",
+        "Control+Shift+Minus"
+      ],
+      "39000": [
+        "Alt+Shift+KeyT"
+      ],
+      "39001": [
+        "Control+KeyL",
+        "Alt+KeyD"
+      ],
+      "39002": [
+        "BrowserSearch",
+        "Control+KeyE",
+        "Control+KeyK"
+      ],
+      "39003": [
+        "F10",
+        "AltGr",
+        "Alt"
+      ],
+      "39004": [
+        "F6"
+      ],
+      "39005": [
+        "Shift+F6"
+      ],
+      "39006": [
+        "Alt+Shift+KeyB"
+      ],
+      "39007": [
+        "Alt+Shift+KeyA"
+      ],
+      "39009": [
+        "Control+F6"
+      ],
+      "40000": [
+        "Control+KeyO"
+      ],
+      "40004": [
+        "Control+Shift+KeyI"
+      ],
+      "40005": [
+        "Control+Shift+KeyJ"
+      ],
+      "40009": [
+        "BrowserFavorites",
+        "Control+Shift+KeyB"
+      ],
+      "40010": [
+        "Control+KeyH"
+      ],
+      "40011": [
+        "Control+Shift+KeyO"
+      ],
+      "40012": [
+        "Control+KeyJ"
+      ],
+      "40013": [
+        "Control+Shift+Delete"
+      ],
+      "40019": [
+        "F1"
+      ],
+      "40021": [
+        "Alt+KeyE",
+        "Alt+KeyF"
+      ],
+      "40023": [
+        "Control+Shift+KeyC"
+      ],
+      "40134": [
+        "Control+Shift+KeyM"
+      ],
+      "40237": [
+        "F12"
+      ],
+      "40260": [
+        "F7"
+      ],
+      "40286": [
+        "Shift+Escape"
+      ],
+      "52500": [
+        "Control+Shift+KeyA"
+      ],
+      "56003": [
+        "Alt+Shift+KeyN"
+      ],
+      "56041": [
+        "Control+KeyM"
+      ],
+      "56044": [
+        "Control+KeyB"
+      ],
+      "56301": [
+        "Control+Space"
+      ]
+    },
+    "always_show_bookmark_bar_on_ntp": false,
+    "branded_wallpaper_notification_dismissed": true,
+    "brave_ads": {
+      "notification_ads": [],
+      "should_allow_ads_subdivision_targeting": false,
+      "state": {
+        "has_migrated": {
+          "client": {
+            "v7": true
+          },
+          "confirmations": {
+            "v8": true
+          },
+          "v2": true
+        }
+      }
+    },
+    "brave_search": {
+      "last-used-ntp-search-engine": "search.brave.com"
+    },
+    "default_accelerators": {
+      "33000": [
+        "BrowserBack",
+        "Alt+ArrowLeft",
+        "AltGr+ArrowLeft"
+      ],
+      "33001": [
+        "BrowserForward",
+        "Alt+ArrowRight",
+        "AltGr+ArrowRight"
+      ],
+      "33002": [
+        "Control+KeyR",
+        "F5",
+        "BrowserRefresh"
+      ],
+      "33003": [
+        "BrowserHome",
+        "Alt+Home"
+      ],
+      "33007": [
+        "Control+Shift+KeyR",
+        "Control+F5",
+        "Shift+F5",
+        "Control+BrowserRefresh",
+        "Shift+BrowserRefresh"
+      ],
+      "34000": [
+        "Control+KeyN"
+      ],
+      "34001": [
+        "Control+Shift+KeyN"
+      ],
+      "34012": [
+        "Control+Shift+KeyW",
+        "Alt+F4"
+      ],
+      "34014": [
+        "AppNew",
+        "Control+KeyT"
+      ],
+      "34015": [
+        "Control+KeyW",
+        "Control+F4",
+        "AppClose"
+      ],
+      "34016": [
+        "Control+Tab",
+        "Control+PageDown"
+      ],
+      "34017": [
+        "Control+Shift+Tab",
+        "Control+PageUp"
+      ],
+      "34018": [
+        "Control+Digit1",
+        "Control+Numpad1",
+        "Alt+Digit1",
+        "Alt+Numpad1"
+      ],
+      "34019": [
+        "Control+Digit2",
+        "Control+Numpad2",
+        "Alt+Digit2",
+        "Alt+Numpad2"
+      ],
+      "34020": [
+        "Control+Digit3",
+        "Control+Numpad3",
+        "Alt+Digit3",
+        "Alt+Numpad3"
+      ],
+      "34021": [
+        "Control+Digit4",
+        "Control+Numpad4",
+        "Alt+Digit4",
+        "Alt+Numpad4"
+      ],
+      "34022": [
+        "Control+Digit5",
+        "Control+Numpad5",
+        "Alt+Digit5",
+        "Alt+Numpad5"
+      ],
+      "34023": [
+        "Control+Digit6",
+        "Control+Numpad6",
+        "Alt+Digit6",
+        "Alt+Numpad6"
+      ],
+      "34024": [
+        "Control+Digit7",
+        "Control+Numpad7",
+        "Alt+Digit7",
+        "Alt+Numpad7"
+      ],
+      "34025": [
+        "Control+Digit8",
+        "Control+Numpad8",
+        "Alt+Digit8",
+        "Alt+Numpad8"
+      ],
+      "34026": [
+        "Control+Digit9",
+        "Control+Numpad9",
+        "Alt+Digit9",
+        "Alt+Numpad9"
+      ],
+      "34028": [
+        "Control+Shift+KeyT"
+      ],
+      "34030": [
+        "F11"
+      ],
+      "34032": [
+        "Control+Shift+PageDown"
+      ],
+      "34033": [
+        "Control+Shift+PageUp"
+      ],
+      "35000": [
+        "Control+KeyD"
+      ],
+      "35001": [
+        "Control+Shift+KeyD"
+      ],
+      "35002": [
+        "Control+KeyU"
+      ],
+      "35003": [
+        "Control+KeyP"
+      ],
+      "35004": [
+        "Control+KeyS"
+      ],
+      "35007": [
+        "Control+Shift+KeyP"
+      ],
+      "35031": [
+        "Control+Shift+KeyS"
+      ],
+      "37000": [
+        "Control+KeyF"
+      ],
+      "37001": [
+        "Control+KeyG",
+        "F3"
+      ],
+      "37002": [
+        "Control+Shift+KeyG",
+        "Shift+F3"
+      ],
+      "37003": [
+        "Escape"
+      ],
+      "38001": [
+        "Control+Equal",
+        "Control+NumpadAdd",
+        "Control+Shift+Equal"
+      ],
+      "38002": [
+        "Control+Digit0",
+        "Control+Numpad0"
+      ],
+      "38003": [
+        "Control+Minus",
+        "Control+NumpadSubtract",
+        "Control+Shift+Minus"
+      ],
+      "39000": [
+        "Alt+Shift+KeyT"
+      ],
+      "39001": [
+        "Control+KeyL",
+        "Alt+KeyD"
+      ],
+      "39002": [
+        "BrowserSearch",
+        "Control+KeyE",
+        "Control+KeyK"
+      ],
+      "39003": [
+        "F10",
+        "Alt",
+        "Alt",
+        "AltGr"
+      ],
+      "39004": [
+        "F6"
+      ],
+      "39005": [
+        "Shift+F6"
+      ],
+      "39006": [
+        "Alt+Shift+KeyB"
+      ],
+      "39007": [
+        "Alt+Shift+KeyA"
+      ],
+      "39009": [
+        "Control+F6"
+      ],
+      "40000": [
+        "Control+KeyO"
+      ],
+      "40004": [
+        "Control+Shift+KeyI"
+      ],
+      "40005": [
+        "Control+Shift+KeyJ"
+      ],
+      "40009": [
+        "BrowserFavorites",
+        "Control+Shift+KeyB"
+      ],
+      "40010": [
+        "Control+KeyH"
+      ],
+      "40011": [
+        "Control+Shift+KeyO"
+      ],
+      "40012": [
+        "Control+KeyJ"
+      ],
+      "40013": [
+        "Control+Shift+Delete"
+      ],
+      "40019": [
+        "F1"
+      ],
+      "40021": [
+        "Alt+KeyE",
+        "Alt+KeyF"
+      ],
+      "40023": [
+        "Control+Shift+KeyC"
+      ],
+      "40134": [
+        "Control+Shift+KeyM"
+      ],
+      "40237": [
+        "F12"
+      ],
+      "40260": [
+        "F7"
+      ],
+      "40286": [
+        "Shift+Escape"
+      ],
+      "52500": [
+        "Control+Shift+KeyA"
+      ],
+      "56003": [
+        "Alt+Shift+KeyN"
+      ],
+      "56041": [
+        "Control+KeyM"
+      ],
+      "56044": [
+        "Control+KeyB"
+      ],
+      "56301": [
+        "Control+Space"
+      ]
+    },
+    "default_private_search_provider_data": {
+      "alternate_urls": [],
+      "contextual_search_url": "",
+      "created_from_play_api": false,
+      "date_created": "0",
+      "doodle_url": "",
+      "enforced_by_policy": false,
+      "favicon_url": "https://cdn.search.brave.com/serp/favicon.ico",
+      "featured_by_policy": false,
+      "id": "0",
+      "image_search_branding_label": "",
+      "image_translate_source_language_param_key": "",
+      "image_translate_target_language_param_key": "",
+      "image_translate_url": "",
+      "image_url": "",
+      "image_url_post_params": "",
+      "input_encodings": [
+        "UTF-8"
+      ],
+      "is_active": 0,
+      "keyword": ":br",
+      "last_modified": "0",
+      "last_visited": "0",
+      "logo_url": "",
+      "new_tab_url": "",
+      "originating_url": "",
+      "policy_origin": 0,
+      "preconnect_to_search_url": false,
+      "prefetch_likely_navigations": false,
+      "prepopulate_id": 550,
+      "safe_for_autoreplace": true,
+      "search_intent_params": [],
+      "search_url_post_params": "",
+      "short_name": "Brave",
+      "starter_pack_id": 0,
+      "suggestions_url": "https://search.brave.com/api/suggest?q={searchTerms}&rich=true&source=desktop",
+      "suggestions_url_post_params": "",
+      "synced_guid": "485bf7d3-0215-45af-87dc-538868000550",
+      "url": "https://search.brave.com/search?q={searchTerms}&source=desktop",
+      "usage_count": 0
+    },
+    "default_private_search_provider_guid": "485bf7d3-0215-45af-87dc-538868000550",
+    "enable_media_router_on_restart": true,
+    "enable_window_closing_confirm": true,
+    "migrated_search_default_in_jp": true,
+    "new_tab_page": {
+      "shows_options": 1
+    },
+    "rewards": {
+      "notifications": "{\"displayed\":[],\"notifications\":[]}",
+      "scheduled_captcha": {
+        "failed_attempts": 0,
+        "id": "",
+        "paused": false,
+        "payment_id": ""
+      }
+    },
+    "search": {
+      "default_version": 32
+    },
+    "shields_settings_version": 4,
+    "stats": {
+      "ads_blocked": "418",
+      "bandwidth_saved_bytes": "6904132",
+      "daily_saving_predictions_bytes": [
+        {
+          "day": 1752616800.0,
+          "value": 3110888.0
+        },
+        {
+          "day": 1752530400.0,
+          "value": 194428.0
+        },
+        {
+          "day": 1752444000.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752357600.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752271200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752184800.0,
+          "value": 162968.0
+        },
+        {
+          "day": 1752098400.0,
+          "value": 1525406.0
+        }
+      ]
+    },
+    "tabs": {
+      "vertical_tabs_enabled": true
+    },
+    "today": {
+      "p3a_total_card_views": [
+        {
+          "day": 1752703200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752616800.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752530400.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752444000.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752357600.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752271200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752184800.0,
+          "value": 0.0
+        }
+      ],
+      "p3a_total_card_visits": [
+        {
+          "day": 1752703200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752616800.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752530400.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752444000.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752357600.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752271200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752184800.0,
+          "value": 0.0
+        }
+      ],
+      "p3a_total_sidebar_filter_usages": [
+        {
+          "day": 1752703200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752616800.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752530400.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752444000.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752357600.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752271200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752184800.0,
+          "value": 0.0
+        }
+      ]
+    },
+    "wallet": {
+      "aurora_mainnet_migrated": true,
+      "custom_networks": {
+        "goerli_migrated": true
+      },
+      "eip1559_chains_migrated": true,
+      "is_compressed_nft_migrated": true,
+      "is_spl_token_program_migrated": true,
+      "keyrings": {},
+      "last_transaction_sent_time_dict": {}
+    },
+    "web_discovery": {
+      "cta_state": {
+        "count": 5,
+        "dismissed": false,
+        "id": "v1",
+        "last_displayed": "13397161758090960"
+      }
+    },
+    "webtorrent_enabled": false,
+    "weekly_storage": {
+      "Brave": {
+        "P2A": {
+          "new_tab_page_ad": {
+            "opportunities": [
+              {
+                "day": 1752703200.0,
+                "value": 9.0
+              },
+              {
+                "day": 1752616800.0,
+                "value": 10.0
+              },
+              {
+                "day": 1752530400.0,
+                "value": 11.0
+              },
+              {
+                "day": 1752444000.0,
+                "value": 0.0
+              },
+              {
+                "day": 1752357600.0,
+                "value": 0.0
+              },
+              {
+                "day": 1752271200.0,
+                "value": 0.0
+              },
+              {
+                "day": 1752184800.0,
+                "value": 1.0
+              }
+            ]
+          }
+        }
+      },
+      "search_count": [
+        {
+          "day": 1752616800.0,
+          "value": 15.0
+        },
+        {
+          "day": 1752530400.0,
+          "value": 7.0
+        },
+        {
+          "day": 1752444000.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752357600.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752271200.0,
+          "value": 0.0
+        },
+        {
+          "day": 1752184800.0,
+          "value": 11.0
+        },
+        {
+          "day": 1752098400.0,
+          "value": 16.0
+        }
+      ]
+    }
+  },
+  "brave_shields": {
+    "p3a_ads_allow_domain_count": 0,
+    "p3a_ads_standard_domain_count": 0,
+    "p3a_ads_strict_domain_count": 0,
+    "p3a_first_reported_revision": 3,
+    "p3a_fp_allow_domain_count": 0,
+    "p3a_fp_standard_domain_count": 0,
+    "p3a_fp_strict_domain_count": 0
+  },
+  "brave_sync_v2": {
+    "reset_devices_progress_token_time": "13396560363619618"
+  },
+  "browser": {
+    "has_seen_welcome_page": true,
+    "window_placement": {
+      "bottom": 1069,
+      "left": 966,
+      "maximized": false,
+      "right": 1909,
+      "top": 40,
+      "work_area_bottom": 1080,
+      "work_area_left": 0,
+      "work_area_right": 1920,
+      "work_area_top": 0
+    }
+  },
+  "commerce_daily_metrics_last_update_time": "13397257614799697",
+  "countryid_at_install": 17477,
+  "default_apps_install_state": 3,
+  "default_search_provider": {
+    "guid": ""
+  },
+  "devtools": {
+    "last_open_timestamp": "13397172989195",
+    "preferences": {
+      "closeable-tabs": "{\"security\":true,\"freestyler\":true,\"chrome-recorder\":true}",
+      "currentDockState": "\"right\"",
+      "elements.styles.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+      "inspector-view.split-view-state": "{\"vertical\":{\"size\":0}}",
+      "inspector.drawer-split-view-state": "{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+      "inspectorVersion": "38",
+      "releaseNoteVersionSeen": "79",
+      "styles-pane-sidebar-tab-order": "{\"styles\":10,\"computed\":20}"
+    },
+    "synced_preferences_sync_disabled": {
+      "adorner-settings": "[{\"adorner\":\"grid\",\"isEnabled\":true},{\"adorner\":\"subgrid\",\"isEnabled\":true},{\"adorner\":\"flex\",\"isEnabled\":true},{\"adorner\":\"ad\",\"isEnabled\":true},{\"adorner\":\"scroll-snap\",\"isEnabled\":true},{\"adorner\":\"container\",\"isEnabled\":true},{\"adorner\":\"slot\",\"isEnabled\":true},{\"adorner\":\"top-layer\",\"isEnabled\":true},{\"adorner\":\"reveal\",\"isEnabled\":true},{\"adorner\":\"media\",\"isEnabled\":false},{\"adorner\":\"scroll\",\"isEnabled\":true}]",
+      "syncedInspectorVersion": "38"
+    }
+  },
+  "domain_diversity": {
+    "last_reporting_timestamp": "13397225945173102"
+  },
+  "download_bubble": {
+    "partial_view_impressions": 2
+  },
+  "enterprise_profile_guid": "aa1fe26d-6f71-4995-a814-ef2547602df6",
+  "ephemeral_storage": {
+    "first_party_storage_origins_to_cleanup": []
+  },
+  "extensions": {
+    "alerts": {
+      "initialized": true
+    },
+    "chrome_url_overrides": {},
+    "commands": {
+      "linux:Ctrl+Shift+9": {
+        "command_name": "generate_password",
+        "extension": "nngceckbapebfimnlniiiahkandclblb",
+        "global": false
+      },
+      "linux:Ctrl+Shift+L": {
+        "command_name": "autofill_login",
+        "extension": "nngceckbapebfimnlniiiahkandclblb",
+        "global": false
+      },
+      "linux:Ctrl+Shift+U": {
+        "command_name": "_execute_action",
+        "extension": "nngceckbapebfimnlniiiahkandclblb",
+        "global": false
+      }
+    },
+    "last_chrome_version": "138.1.80.120",
+    "pinned_extensions": [
+      "nngceckbapebfimnlniiiahkandclblb"
+    ],
+    "settings": {
+      "ahfgeienlihckogmohjhadlkjgocpleb": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "management",
+            "system.display",
+            "system.storage",
+            "webstorePrivate",
+            "system.cpu",
+            "system.memory",
+            "system.network"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "app_launcher_ordinal": "t",
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "first_install_time": "13396560363461007",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13397258571302638",
+        "location": 5,
+        "manifest": {
+          "app": {
+            "launch": {
+              "web_url": "https://chrome.google.com/webstore"
+            },
+            "urls": [
+              "https://chrome.google.com/webstore"
+            ]
+          },
+          "description": "Entdecke tolle Apps, Spiele, Erweiterungen und Designs für Brave.",
+          "icons": {
+            "128": "webstore_icon_128.png",
+            "16": "webstore_icon_16.png"
+          },
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+          "name": "Webshop",
+          "permissions": [
+            "webstorePrivate",
+            "management",
+            "system.cpu",
+            "system.display",
+            "system.memory",
+            "system.network",
+            "system.storage"
+          ],
+          "version": "0.2"
+        },
+        "needs_sync": true,
+        "page_ordinal": "n",
+        "path": "/opt/brave-bin/resources/web_store",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "mhjfbmdgcfjbbpaeojofohoefgiehjai": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "contentSettings",
+            "fileSystem",
+            "fileSystem.write",
+            "metricsPrivate",
+            "tabs",
+            "resourcesPrivate",
+            "pdfViewerPrivate"
+          ],
+          "explicit_host": [
+            "chrome://brave-resources/*",
+            "chrome://resources/*",
+            "chrome://webui-test/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "first_install_time": "13396560363461363",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13397258571302875",
+        "location": 5,
+        "manifest": {
+          "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://brave-resources chrome://resources chrome://webui-test; object-src * blob: externalfile: file: filesystem: data:",
+          "description": "",
+          "incognito": "split",
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN6hM0rsDYGbzQPQfOygqlRtQgKUXMfnSjhIBL7LnReAVBEd7ZmKtyN2qmSasMl4HZpMhVe2rPWVVwBDl6iyNE/Kok6E6v6V3vCLGsOpQAuuNVye/3QxzIldzG/jQAdWZiyXReRVapOhZtLjGfywCvlWq7Sl/e3sbc0vWybSDI2QIDAQAB",
+          "manifest_version": 2,
+          "mime_types": [
+            "application/pdf"
+          ],
+          "mime_types_handler": "index.html",
+          "name": "Chrome PDF Viewer",
+          "offline_enabled": true,
+          "permissions": [
+            "chrome://brave-resources/",
+            "chrome://resources/",
+            "chrome://webui-test/",
+            "contentSettings",
+            "metricsPrivate",
+            "pdfViewerPrivate",
+            "resourcesPrivate",
+            "tabs",
+            {
+              "fileSystem": [
+                "write"
+              ]
+            }
+          ],
+          "version": "1"
+        },
+        "path": "/opt/brave-bin/resources/pdf",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "mnojpmjdmbbfmejpflffifhffcmidifd": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "activeTab",
+            "alarms",
+            "contentSettings",
+            "contextMenus",
+            "cookies",
+            "history",
+            "management",
+            "settingsPrivate",
+            "storage",
+            "tabs",
+            "unlimitedStorage",
+            "webNavigation",
+            "webRequest",
+            "webRequestBlocking"
+          ],
+          "explicit_host": [
+            "*://*/*",
+            "<all_urls>",
+            "chrome://favicon/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "https://chrome.google.com/webstore/*",
+            "https://chromewebstore.google.com/*"
+          ]
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "first_install_time": "13396560363461761",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13397258571303240",
+        "location": 5,
+        "manifest": {
+          "content_scripts": [
+            {
+              "all_frames": true,
+              "js": [
+                "out/webstore.bundle.js"
+              ],
+              "matches": [
+                "https://chrome.google.com/webstore/*",
+                "https://chromewebstore.google.com/*"
+              ],
+              "run_at": "document_start"
+            }
+          ],
+          "content_security_policy": "default-src 'self'; font-src 'self' data:; script-src 'self' 'wasm-eval'; style-src 'unsafe-inline'; img-src 'self' data: chrome://favicon/; connect-src * data: blob: filesystem:;",
+          "default_locale": "en_US",
+          "description": "__MSG_appName__",
+          "icons": {
+            "128": "assets/img/icon-128.png",
+            "16": "assets/img/icon-16.png",
+            "256": "assets/img/icon-256.png",
+            "32": "assets/img/icon-32.png",
+            "48": "assets/img/icon-48.png",
+            "64": "assets/img/icon-64.png"
+          },
+          "incognito": "split",
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupOLMy5Fd4dCSOtjcApsAQOnuBdTs+OvBVt/3P93noIrf068x0xXkvxbn+fpigcqfNamiJ5CjGyfx9zAIs7zcHwbxjOw0Uih4SllfgtK+svNTeE0r5atMWE0xR489BvsqNuPSxYJUmW28JqhaSZ4SabYrRx114KcU6ko7hkjyPkjQa3P+chStJjIKYgu5tWBiMJp5QVLelKoM+xkY6S7efvJ8AfajxCViLGyDQPDviGr2D0VvIBob0D1ZmAoTvYOWafcNCaqaejPDybFtuLFX3pZBqfyOCyyzGhucyCmfBXJALKbhjRAqN5glNsUmGhhPK87TuGATQfVuZtenMvXMQIDAQAB",
+          "manifest_version": 2,
+          "name": "Brave",
+          "permissions": [
+            "activeTab",
+            "alarms",
+            "contentSettings",
+            "contextMenus",
+            "cookies",
+            "history",
+            "management",
+            "settingsPrivate",
+            "storage",
+            "tabs",
+            "webNavigation",
+            "webRequest",
+            "*://*/*",
+            "chrome://favicon/*",
+            "webDiscovery",
+            "webRequestBlocking",
+            "unlimitedStorage",
+            "<all_urls>"
+          ],
+          "version": "1.0.0"
+        },
+        "path": "/opt/brave-bin/resources/brave_extension",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "nngceckbapebfimnlniiiahkandclblb": {
+        "account_extension_type": 0,
+        "active_bit": false,
+        "active_permissions": {
+          "api": [
+            "activeTab",
+            "alarms",
+            "clipboardRead",
+            "clipboardWrite",
+            "contextMenus",
+            "idle",
+            "notifications",
+            "storage",
+            "tabs",
+            "unlimitedStorage",
+            "webNavigation",
+            "webRequest",
+            "scripting",
+            "offscreen",
+            "webRequestAuthProvider"
+          ],
+          "explicit_host": [
+            "http://*/*",
+            "https://*/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "*://*/*",
+            "file:///*"
+          ]
+        },
+        "allowlist": 1,
+        "commands": {
+          "_execute_action": {
+            "was_assigned": true
+          },
+          "autofill_card": {
+            "suggested_key": ""
+          },
+          "autofill_identity": {
+            "suggested_key": ""
+          },
+          "autofill_login": {
+            "suggested_key": "Ctrl+Shift+L",
+            "was_assigned": true
+          },
+          "generate_password": {
+            "suggested_key": "Ctrl+Shift+9",
+            "was_assigned": true
+          },
+          "lock_vault": {
+            "suggested_key": ""
+          }
+        },
+        "content_settings": [],
+        "creation_flags": 9,
+        "disable_reasons": [],
+        "filtered_service_worker_events": {
+          "webNavigation.onCommitted": [
+            {}
+          ],
+          "webNavigation.onCompleted": [],
+          "windows.onFocusChanged": [
+            {}
+          ],
+          "windows.onRemoved": []
+        },
+        "first_install_time": "13396561279806325",
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "activeTab",
+            "alarms",
+            "clipboardRead",
+            "clipboardWrite",
+            "contextMenus",
+            "idle",
+            "notifications",
+            "storage",
+            "tabs",
+            "unlimitedStorage",
+            "webNavigation",
+            "webRequest",
+            "scripting",
+            "offscreen",
+            "webRequestAuthProvider"
+          ],
+          "explicit_host": [
+            "http://*/*",
+            "https://*/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "*://*/*",
+            "file:///*"
+          ]
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13396561279806325",
+        "location": 1,
+        "manifest": {
+          "action": {
+            "default_icon": {
+              "19": "images/icon19.png",
+              "38": "images/icon38.png"
+            },
+            "default_popup": "popup/index.html",
+            "default_title": "Bitwarden"
+          },
+          "author": "Bitwarden Inc.",
+          "background": {
+            "service_worker": "background.js"
+          },
+          "commands": {
+            "_execute_action": {
+              "description": "Tresor-Popup öffnen",
+              "suggested_key": {
+                "default": "Ctrl+Shift+Y",
+                "linux": "Ctrl+Shift+U"
+              }
+            },
+            "autofill_card": {
+              "description": "Die zuletzt verwendete Karte für die aktuelle Website automatisch ausfüllen"
+            },
+            "autofill_identity": {
+              "description": "Die zuletzt verwendete Identität für die aktuelle Website automatisch ausfüllen"
+            },
+            "autofill_login": {
+              "description": "Die zuletzt verwendeten Zugangsdaten für die aktuelle Website automatisch ausfüllen",
+              "suggested_key": {
+                "default": "Ctrl+Shift+L"
+              }
+            },
+            "generate_password": {
+              "description": "Ein neues zufälliges Passwort generieren und in die Zwischenablage kopieren",
+              "suggested_key": {
+                "default": "Ctrl+Shift+9"
+              }
+            },
+            "lock_vault": {
+              "description": "Den Tresor sperren"
+            }
+          },
+          "content_scripts": [
+            {
+              "all_frames": false,
+              "exclude_matches": [
+                "*://*/*.xml*",
+                "file:///*.xml*"
+              ],
+              "js": [
+                "content/content-message-handler.js"
+              ],
+              "matches": [
+                "*://*/*",
+                "file:///*"
+              ],
+              "run_at": "document_start"
+            },
+            {
+              "all_frames": true,
+              "css": [
+                "content/autofill.css"
+              ],
+              "exclude_matches": [
+                "*://*/*.xml*",
+                "file:///*.xml*"
+              ],
+              "js": [
+                "content/trigger-autofill-script-injection.js"
+              ],
+              "matches": [
+                "*://*/*",
+                "file:///*"
+              ],
+              "run_at": "document_start"
+            }
+          ],
+          "content_security_policy": {
+            "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+            "sandbox": "sandbox allow-scripts; script-src 'self'"
+          },
+          "current_locale": "de",
+          "default_locale": "en",
+          "description": "Bitwarden schützt alle deine Passwörter, Passkeys und vertrauliche Informationen - egal, wo du bist.",
+          "homepage_url": "https://bitwarden.com",
+          "host_permissions": [
+            "https://*/*",
+            "http://*/*"
+          ],
+          "icons": {
+            "128": "images/icon128.png",
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png",
+            "96": "images/icon96.png"
+          },
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmqKbvreshyXRuN2gikeR1idqR6KL0Di89JZcMyD4bjJRZVmQO7aznSGSALIHzSAUGYocUYBNDOP5QAhImxXyQ1qG8+goXs93v9GzrNJETdVuCEhqBggC4/DFabryJZDiKvZ2Jl0DM7MsWdoybZPwrj70V3aJ/nVNOMkf868scNTMliwitCqqjT5baTANsG0DkZWQExD4lSXzSZHH9MEO8q0iZ7RRlNuGRBAkZgNV8FwZRsPKm/rwQ9dy3VpgLcmLp5GiMt+kAEncqKAkuRYnhVXXBsKqIyYTMjHSLkLnpfFySyOPLBdS617i/PGNiP/MT6Xy6z//v5NozUgaAZ4gJQIDAQAB",
+          "manifest_version": 3,
+          "minimum_chrome_version": "102.0",
+          "name": "Bitwarden Passwortmanager",
+          "optional_permissions": [
+            "nativeMessaging",
+            "privacy"
+          ],
+          "permissions": [
+            "activeTab",
+            "alarms",
+            "clipboardRead",
+            "clipboardWrite",
+            "contextMenus",
+            "idle",
+            "offscreen",
+            "scripting",
+            "storage",
+            "tabs",
+            "unlimitedStorage",
+            "webNavigation",
+            "webRequest",
+            "webRequestAuthProvider",
+            "notifications"
+          ],
+          "sandbox": {
+            "pages": [
+              "overlay/menu-button.html",
+              "overlay/menu-list.html"
+            ]
+          },
+          "short_name": "Bitwarden",
+          "storage": {
+            "managed_schema": "managed_schema.json"
+          },
+          "update_url": "https://clients2.google.com/service/update2/crx",
+          "version": "2025.6.1",
+          "web_accessible_resources": [
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "content/fido2-page-script.js",
+                "notification/bar.html",
+                "images/icon38.png",
+                "images/icon38_locked.png",
+                "overlay/menu-button.html",
+                "overlay/menu-list.html",
+                "overlay/menu.html",
+                "popup/fonts/*"
+              ]
+            }
+          ]
+        },
+        "needs_sync": true,
+        "path": "nngceckbapebfimnlniiiahkandclblb/2025.6.1_0",
+        "persistent_script_url_patterns": [
+          "http://localhost/*",
+          "https://*/*"
+        ],
+        "preferences": {},
+        "regular_only_preferences": {},
+        "service_worker_registration_info": {
+          "version": "2025.6.1"
+        },
+        "serviceworkerevents": [
+          "alarms.onAlarm",
+          "commands.onCommand",
+          "contextMenus.onClicked",
+          "idle.onStateChanged",
+          "permissions.onAdded",
+          "runtime.onInstalled",
+          "storage.local.onChanged",
+          "storage.session.onChanged",
+          "tabs.onActivated",
+          "tabs.onRemoved",
+          "tabs.onReplaced",
+          "tabs.onUpdated",
+          "webRequest.onAuthRequired/s1",
+          "webRequest.onBeforeRequest/s64",
+          "webRequest.onBeforeRequest/s66",
+          "webRequest.onBeforeRequest/s68",
+          "webRequest.onBeforeRequest/s95",
+          "webRequest.onCompleted/s2",
+          "webRequest.onCompleted/s65",
+          "webRequest.onCompleted/s67",
+          "webRequest.onCompleted/s69",
+          "webRequest.onCompleted/s96",
+          "webRequest.onErrorOccurred/s3"
+        ],
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false,
+        "withholding_permissions": false
+      }
+    }
+  },
+  "gaia_cookie": {
+    "changed_time": 1752690695.17886,
+    "hash": "4uIaBYtdoWZc7z788eRJzwdDLn0=",
+    "last_list_accounts_data": "[\"gaia.l.a.r\",[[\"gaia.l.a\",1,\"B1T RaY3R\",\"alexander.borgardt@gmail.com\",\"https://lh3.googleusercontent.com/-DtTv-Z3DwQg/AAAAAAAAAAI/AAAAAAAAAAA/wc0xnzSpEvA/s48-c/photo.jpg\",1,1,0,null,1,\"103309353196778942459\",null,null,null,null,1]]]"
+  },
+  "gcm": {
+    "product_category_for_subtypes": "com.brave.linux",
+    "push_messaging_unsubscribed_entries_list": []
+  },
+  "google": {
+    "services": {
+      "signin_scoped_device_id": "19c056f1-3dd3-4ad1-991d-355d83c20337"
+    }
+  },
+  "https_upgrade_navigations": {
+    "2025-07-09": 30,
+    "2025-07-10": 40,
+    "2025-07-11": 50,
+    "2025-07-15": 50,
+    "2025-07-16": 50
+  },
+  "in_product_help": {
+    "new_badge": {
+      "ComposeNudge": {
+        "feature_enabled_time": "13396560363465029",
+        "show_count": 0,
+        "used_count": 0
+      },
+      "ComposeProactiveNudge": {
+        "feature_enabled_time": "13396560363465031",
+        "show_count": 0,
+        "used_count": 0
+      },
+      "PasswordManualFallbackAvailable": {
+        "feature_enabled_time": "13396560363465020",
+        "show_count": 0,
+        "used_count": 0
+      }
+    },
+    "policy_last_heavyweight_promo_time": "13397258401532860",
+    "recent_session_enabled_time": "13396560363464753",
+    "recent_session_start_times": [
+      "13397257614802005",
+      "13397225945083491",
+      "13397161695727941",
+      "13397073841844374",
+      "13396733903670436",
+      "13396649516258726",
+      "13396560363464753"
+    ],
+    "session_last_active_time": "13397258571307216",
+    "session_start_time": "13397257614802005",
+    "snoozed_feature": {
+      "IPH_DiscardRing": {
+        "first_show_time": "13397165581284038",
+        "is_dismissed": true,
+        "last_dismissed_by": 0,
+        "last_show_time": "13397258401532870",
+        "last_snooze_time": "0",
+        "promo_index": 0,
+        "show_count": 2,
+        "shown_for_apps": [],
+        "snooze_count": 0
+      }
+    }
+  },
+  "intl": {
+    "selected_languages": "de-DE,de,en-US,en"
+  },
+  "invalidation": {
+    "per_sender_topics_to_handler": {
+      "1013309121859": {}
+    }
+  },
+  "language_model_counters": {
+    "de": 39,
+    "en": 223
+  },
+  "media": {
+    "device_id_salt": "D438EA4FDAEB269C7E53AD4396C2707D",
+    "engagement": {
+      "schema_version": 5
+    }
+  },
+  "media_router": {
+    "enable_media_router": true,
+    "receiver_id_hash_token": "WRZ0umJeLtQ7rTRe67FOJ6kJfIdcBaREb/FovVLNhMWfhNFt0wCau3qIO1tUojlTH2dHKIYEf/ojlGqbe79wZA=="
+  },
+  "migrated_user_scripts_toggle": true,
+  "ntp": {
+    "num_personal_suggestions": 4
+  },
+  "omnibox": {
+    "shown_count_history_scope_promo": 3
+  },
+  "partition": {
+    "per_host_zoom_levels": {
+      "x": {
+        "search.brave.com": {
+          "last_modified": "13396652896454128",
+          "zoom_level": 1.2239010857415449
+        }
+      }
+    }
+  },
+  "password_manager": {
+    "account_store_migrated_to_os_crypt_async": true,
+    "autofillable_credentials_account_store_login_database": false,
+    "autofillable_credentials_profile_store_login_database": false,
+    "profile_store_migrated_to_os_crypt_async": true,
+    "relaunch_chrome_bubble_dismissed_counter": 0
+  },
+  "permission_lifetime": {
+    "expirations": {}
+  },
+  "pinned_tabs": [],
+  "privacy_sandbox": {
+    "first_party_sets_data_access_allowed_initialized": true,
+    "first_party_sets_enabled": false,
+    "m1": {
+      "ad_measurement_enabled": false,
+      "fledge_enabled": false,
+      "topics_enabled": false
+    }
+  },
+  "profile": {
+    "avatar_index": 61,
+    "background_password_check": {
+      "check_fri_weight": 9,
+      "check_interval": "2592000000000",
+      "check_mon_weight": 6,
+      "check_sat_weight": 6,
+      "check_sun_weight": 6,
+      "check_thu_weight": 9,
+      "check_tue_weight": 9,
+      "check_wed_weight": 9,
+      "next_check_time": "13398720107864735"
+    },
+    "content_settings": {
+      "exceptions": {
+        "3pcd_heuristics_grants": {},
+        "3pcd_support": {},
+        "abusive_notification_permissions": {},
+        "access_to_get_all_screens_media_in_session": {},
+        "anti_abuse": {},
+        "app_banner": {
+          "https://bitwarden.com:443,*": {
+            "last_modified": "13396561280885899",
+            "setting": {
+              "https://bitwarden.com/": {
+                "couldShowBannerEvents": 13396561280885896,
+                "next_install_text_animation": {
+                  "delay": "86400000000",
+                  "last_shown": "13396561280885763"
+                }
+              }
+            }
+          },
+          "https://cloud.borgardt.me:443,*": {
+            "last_modified": "13397074309450049",
+            "setting": {
+              "https://cloud.borgardt.me/": {
+                "couldShowBannerEvents": 1.339673585658676E+16,
+                "next_install_text_animation": {
+                  "delay": "172800000000",
+                  "last_shown": "13397074309450030"
+                }
+              }
+            }
+          },
+          "https://github.com:443,*": {
+            "last_modified": "13397073849316235",
+            "setting": {
+              "https://github.com/": {
+                "couldShowBannerEvents": 13396560908944676,
+                "next_install_text_animation": {
+                  "delay": "345600000000",
+                  "last_shown": "13397073849316221"
+                }
+              }
+            }
+          },
+          "https://stacks.home.borgardt.me:443,*": {
+            "last_modified": "13397175157096950",
+            "setting": {
+              "https://stacks.home.borgardt.me/": {
+                "couldShowBannerEvents": 13397175157096944,
+                "next_install_text_animation": {
+                  "delay": "86400000000",
+                  "last_shown": "13397175157096822"
+                }
+              }
+            }
+          },
+          "https://startpage.home.borgardt.me:443,*": {
+            "last_modified": "13397175152907458",
+            "setting": {
+              "https://startpage.home.borgardt.me/": {
+                "couldShowBannerEvents": 13397175152907452,
+                "next_install_text_animation": {
+                  "delay": "86400000000",
+                  "last_shown": "13397175152907288"
+                }
+              }
+            }
+          },
+          "https://www.reddit.com:443,*": {
+            "last_modified": "13397076090332886",
+            "setting": {
+              "https://www.reddit.com/": {
+                "couldShowBannerEvents": 13396560411766364,
+                "next_install_text_animation": {
+                  "delay": "345600000000",
+                  "last_shown": "13397076090332875"
+                }
+              }
+            }
+          },
+          "https://www.youtube.com:443,*": {
+            "last_modified": "13397164258038032",
+            "setting": {
+              "https://www.youtube.com/": {
+                "next_install_text_animation": {
+                  "delay": "172800000000",
+                  "last_shown": "13397164258038024"
+                }
+              },
+              "https://www.youtube.com/?feature=ytca": {
+                "couldShowBannerEvents": 13396563837781514
+              }
+            }
+          }
+        },
+        "ar": {},
+        "are_suspicious_notifications_allowlisted_by_user": {},
+        "auto_picture_in_picture": {},
+        "auto_select_certificate": {},
+        "automatic_downloads": {},
+        "automatic_fullscreen": {},
+        "autoplay": {},
+        "background_sync": {},
+        "bluetooth_chooser_data": {},
+        "bluetooth_guard": {},
+        "bluetooth_scanning": {},
+        "braveShields": {},
+        "braveShieldsMetadata": {
+          "https://[*.]archlinux.org,*": {
+            "last_modified": "13397170438080190",
+            "setting": {
+              "farbling_token": "FEA4796AFCBF74B41C31EAE52CC5CE1E"
+            }
+          },
+          "https://[*.]borgardt.me,*": {
+            "last_modified": "13397175152529785",
+            "setting": {
+              "farbling_token": "1B65CAD8720E133F9A8D7F3804E66C1C"
+            }
+          },
+          "https://[*.]brave.com,*": {
+            "last_modified": "13397170432675827",
+            "setting": {
+              "farbling_token": "94C6A214FB4E8A3FFFF7EB0D3ADFE9D3"
+            }
+          },
+          "https://[*.]chatgpt.com,*": {
+            "last_modified": "13397170893274169",
+            "setting": {
+              "farbling_token": "7F8CCC98D42568FA1E7E194A0F27BC7C"
+            }
+          },
+          "https://[*.]codeberg.org,*": {
+            "last_modified": "13397175586531741",
+            "setting": {
+              "farbling_token": "02B9E2C7C7BDA316498A0E35FC7F0E55"
+            }
+          },
+          "https://[*.]github.com,*": {
+            "last_modified": "13397170889147739",
+            "setting": {
+              "farbling_token": "823BBFF027E82FBE216D3F10DE0DD8A8"
+            }
+          },
+          "https://[*.]google.com,*": {
+            "last_modified": "13397174917017481",
+            "setting": {
+              "farbling_token": "BA30EB60F31159BF8BE05EE30F9E9BB5"
+            }
+          },
+          "https://[*.]openai.com,*": {
+            "last_modified": "13397172927236892",
+            "setting": {
+              "farbling_token": "D1D8E61671E917B4A4A730104FC14422"
+            }
+          },
+          "https://[*.]youtube.com,*": {
+            "last_modified": "13397168946716545",
+            "setting": {
+              "farbling_token": "1A0019B458C715FA0B397B12FEA764CA"
+            }
+          }
+        },
+        "braveSpeedreader": {},
+        "brave_ethereum": {},
+        "brave_google_sign_in": {},
+        "brave_localhost_access": {},
+        "brave_open_ai_chat": {},
+        "brave_remember_1p_storage": {},
+        "brave_solana": {},
+        "brave_webcompat_audio": {},
+        "brave_webcompat_canvas": {},
+        "brave_webcompat_device_memory": {},
+        "brave_webcompat_event_source_pool": {},
+        "brave_webcompat_font": {},
+        "brave_webcompat_hardware_concurrency": {},
+        "brave_webcompat_keyboard": {},
+        "brave_webcompat_language": {},
+        "brave_webcompat_media_devices": {},
+        "brave_webcompat_none": {},
+        "brave_webcompat_plugins": {},
+        "brave_webcompat_screen": {},
+        "brave_webcompat_speech_synthesis": {},
+        "brave_webcompat_usb_device_serial_number": {},
+        "brave_webcompat_user_agent": {},
+        "brave_webcompat_web_sockets_pool": {},
+        "brave_webcompat_webgl": {},
+        "brave_webcompat_webgl2": {},
+        "camera_pan_tilt_zoom": {},
+        "captured_surface_control": {},
+        "client_hints": {
+          "https://accounts.google.com:443,*": {
+            "last_modified": "13397164295208349",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          },
+          "https://accounts.youtube.com:443,*": {
+            "last_modified": "13397164295363327",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          },
+          "https://chromewebstore.google.com:443,*": {
+            "last_modified": "13396561260472143",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          },
+          "https://wiki.archlinux.org:443,*": {
+            "last_modified": "13397077880226749",
+            "setting": {
+              "client_hints": []
+            }
+          },
+          "https://www.google.com:443,*": {
+            "last_modified": "13397174942073863",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          },
+          "https://www.youtube.com:443,*": {
+            "last_modified": "13397164295767351",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          },
+          "https://youtube.com:443,*": {
+            "last_modified": "13397164255820764",
+            "setting": {
+              "client_hints": [
+                9,
+                10,
+                11,
+                14,
+                16,
+                23,
+                25
+              ]
+            }
+          }
+        },
+        "clipboard": {},
+        "controlled_frame": {},
+        "cookie_controls_metadata": {},
+        "cookies": {},
+        "cosmeticFiltering": {},
+        "direct_sockets": {},
+        "direct_sockets_private_network_access": {},
+        "display_media_system_audio": {},
+        "disruptive_notification_permissions": {},
+        "durable_storage": {},
+        "fedcm_idp_registration": {},
+        "fedcm_idp_signin": {},
+        "fedcm_share": {},
+        "file_system_access_chooser_data": {},
+        "file_system_access_extended_permission": {},
+        "file_system_access_restore_permission": {},
+        "file_system_last_picked_directory": {},
+        "file_system_read_guard": {},
+        "file_system_write_guard": {},
+        "fingerprintingV2": {},
+        "formfill_metadata": {},
+        "geolocation": {},
+        "hand_tracking": {},
+        "hid_chooser_data": {},
+        "hid_guard": {},
+        "httpUpgradableResources": {},
+        "http_allowed": {},
+        "httpsUpgrades": {},
+        "https_enforced": {},
+        "idle_detection": {},
+        "images": {},
+        "important_site_info": {},
+        "initialized_translations": {},
+        "intent_picker_auto_display": {},
+        "javascript": {},
+        "javascript_jit": {},
+        "javascript_optimizer": {},
+        "keyboard_lock": {},
+        "legacy_cookie_access": {},
+        "legacy_cookie_scope": {},
+        "local_fonts": {},
+        "local_network_access": {},
+        "media_engagement": {
+          "https://accounts.google.com:443,*": {
+            "expiration": "13404940295793599",
+            "last_modified": "13397164295793605",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://aur.archlinux.org:443,*": {
+            "expiration": "13404946441759481",
+            "last_modified": "13397170441759487",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://bbs.archlinux.org:443,*": {
+            "expiration": "13404853936094307",
+            "last_modified": "13397077936094310",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 6
+            }
+          },
+          "https://bitwarden.com:443,*": {
+            "expiration": "13404337283168233",
+            "last_modified": "13396561283168238",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://chatgpt.com:443,*": {
+            "expiration": "13404949871378929",
+            "last_modified": "13397173871378935",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://chromewebstore.google.com:443,*": {
+            "expiration": "13404337280516629",
+            "last_modified": "13396561280516635",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://cloud.borgardt.me:443,*": {
+            "expiration": "13405033608145327",
+            "last_modified": "13397257608145331",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 9
+            }
+          },
+          "https://discord.com:443,*": {
+            "expiration": "13404938759717860",
+            "last_modified": "13397162759717866",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://docs.j7k6.org:443,*": {
+            "expiration": "13404338140020808",
+            "last_modified": "13396562140020814",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://evilshit.wordpress.com:443,*": {
+            "expiration": "13404337802202335",
+            "last_modified": "13396561802202338",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://gist.github.com:443,*": {
+            "expiration": "13404426340753370",
+            "last_modified": "13396650340753375",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://github.com:443,*": {
+            "expiration": "13404951582016966",
+            "last_modified": "13397175582016969",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 26
+            }
+          },
+          "https://help.obsidian.md:443,*": {
+            "expiration": "13404511686149202",
+            "last_modified": "13396735686149207",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://kofler.info:443,*": {
+            "expiration": "13404337829978611",
+            "last_modified": "13396561829978615",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://nextcloud.com:443,*": {
+            "expiration": "13404511811189438",
+            "last_modified": "13396735811189442",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://obsidian.md:443,*": {
+            "expiration": "13404511684902650",
+            "last_modified": "13396735684902655",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://openai.com:443,*": {
+            "expiration": "13404948931466093",
+            "last_modified": "13397172931466100",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://pkg.go.dev:443,*": {
+            "expiration": "13404946891038221",
+            "last_modified": "13397170891038234",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://raw.githubusercontent.com:443,*": {
+            "expiration": "13404940742789591",
+            "last_modified": "13397164742789600",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://search.brave.com:443,*": {
+            "expiration": "13404951587429318",
+            "last_modified": "13397175587429323",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 65
+            }
+          },
+          "https://sso.borgardt.me:443,*": {
+            "expiration": "13405002011722954",
+            "last_modified": "13397226011722958",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 3
+            }
+          },
+          "https://starship.rs:443,*": {
+            "expiration": "13404940500662969",
+            "last_modified": "13397164500662977",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 3
+            }
+          },
+          "https://startpage.home.borgardt.me:443,*": {
+            "expiration": "13405034410991188",
+            "last_modified": "13397258410991193",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://sw.kovidgoyal.net:443,*": {
+            "expiration": "13404428900778138",
+            "last_modified": "13396652900778152",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 3
+            }
+          },
+          "https://user-images.githubusercontent.com:443,*": {
+            "expiration": "13404855274121687",
+            "last_modified": "13397079274121693",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 4
+            }
+          },
+          "https://vifm.info:443,*": {
+            "expiration": "13404940762978833",
+            "last_modified": "13397164762978837",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://wiki.archlinux.org:443,*": {
+            "expiration": "13404853902974802",
+            "last_modified": "13397077902974807",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://wiki.hypr.land:443,*": {
+            "expiration": "13404512341532692",
+            "last_modified": "13396736341532696",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://www.ddanieltan.com:443,*": {
+            "expiration": "13404426302653974",
+            "last_modified": "13396650302653980",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://www.gnu.org:443,*": {
+            "expiration": "13404510254965753",
+            "last_modified": "13396734254965758",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 3
+            }
+          },
+          "https://www.google.com:443,*": {
+            "expiration": "13404950944789636",
+            "last_modified": "13397174944789642",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 2
+            }
+          },
+          "https://www.lorenzobettini.it:443,*": {
+            "expiration": "13404339019302779",
+            "last_modified": "13396563019302784",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://www.nerdfonts.com:443,*": {
+            "expiration": "13404428670096014",
+            "last_modified": "13396652670096018",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://www.pling.com:443,*": {
+            "expiration": "13404852986400791",
+            "last_modified": "13397076986400795",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          },
+          "https://www.reddit.com:443,*": {
+            "expiration": "13404854929995456",
+            "last_modified": "13397078929995461",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 7
+            }
+          },
+          "https://www.twitch.tv:443,*": {
+            "expiration": "13404938779155102",
+            "last_modified": "13397162779155109",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 13397161794368242,
+              "mediaPlaybacks": 1,
+              "visits": 1
+            }
+          },
+          "https://www.youtube.com:443,*": {
+            "expiration": "13404948416938976",
+            "last_modified": "13397172416938984",
+            "lifetime": "7776000000000",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 13397164323881732,
+              "mediaPlaybacks": 1,
+              "visits": 2
+            }
+          }
+        },
+        "media_stream_camera": {},
+        "media_stream_mic": {},
+        "midi_sysex": {},
+        "mixed_script": {},
+        "nfc_devices": {},
+        "notification_interactions": {},
+        "notification_permission_review": {},
+        "notifications": {},
+        "ondevice_languages_downloaded": {},
+        "password_protection": {},
+        "payment_handler": {},
+        "permission_autoblocking_data": {},
+        "permission_autorevocation_data": {},
+        "pointer_lock": {},
+        "popups": {},
+        "private_network_chooser_data": {},
+        "private_network_guard": {},
+        "protocol_handler": {},
+        "reduced_accept_language": {},
+        "referrers": {},
+        "safe_browsing_url_check_data": {},
+        "sensors": {},
+        "serial_chooser_data": {},
+        "serial_guard": {},
+        "shieldsAds": {},
+        "shieldsCookiesV3": {},
+        "site_engagement": {
+          "chrome://extensions/,*": {
+            "last_modified": "13397258412905168",
+            "setting": {
+              "lastEngagementTime": 13397258412905148,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 3.6,
+              "rawScore": 5.891739534897799
+            }
+          },
+          "chrome://newtab/,*": {
+            "last_modified": "13397258571469932",
+            "setting": {
+              "lastEngagementTime": 13397258571469916,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 6.0,
+              "rawScore": 45.892670032841465
+            }
+          },
+          "chrome://settings/,*": {
+            "last_modified": "13397258581625701",
+            "setting": {
+              "lastEngagementTime": 13397258581625684,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 5.7,
+              "rawScore": 9.710544186071148
+            }
+          },
+          "chrome://tab-search.top-chrome/,*": {
+            "last_modified": "13397225945151298",
+            "setting": {
+              "lastEngagementTime": 1.339704976542527E+16,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 3.0
+            }
+          },
+          "chrome://welcome/,*": {
+            "last_modified": "13397225945151319",
+            "setting": {
+              "lastEngagementTime": 1.339704905425865E+16,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 4.5
+            }
+          },
+          "https://accounts.google.com:443,*": {
+            "last_modified": "13397225945150932",
+            "setting": {
+              "lastEngagementTime": 13397185772117944,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://aur.archlinux.org:443,*": {
+            "last_modified": "13397225945151186",
+            "setting": {
+              "lastEngagementTime": 13397151917886944,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://bbs.archlinux.org:443,*": {
+            "last_modified": "13397225945151203",
+            "setting": {
+              "lastEngagementTime": 13397152520888752,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 6.258064950080131
+            }
+          },
+          "https://chatgpt.com:443,*": {
+            "last_modified": "13397225945150860",
+            "setting": {
+              "lastEngagementTime": 1.339719507585569E+16,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 15.0
+            }
+          },
+          "https://chromewebstore.google.com:443,*": {
+            "last_modified": "13397225945150943",
+            "setting": {
+              "lastEngagementTime": 13397049755290686,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://cloud.borgardt.me:443,*": {
+            "last_modified": "13397225945797596",
+            "setting": {
+              "lastEngagementTime": 13397225945797576,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 3.0,
+              "rawScore": 11.919126714284838
+            }
+          },
+          "https://codeberg.org:443,*": {
+            "last_modified": "13397225945151238",
+            "setting": {
+              "lastEngagementTime": 13397197145150718,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.7
+            }
+          },
+          "https://discord.com:443,*": {
+            "last_modified": "13397225945150886",
+            "setting": {
+              "lastEngagementTime": 13397184236074094,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 10.199999999999998
+            }
+          },
+          "https://docs.j7k6.org:443,*": {
+            "last_modified": "13397225945151267",
+            "setting": {
+              "lastEngagementTime": 13397050588409522,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 3.3000000000000003
+            }
+          },
+          "https://evilshit.wordpress.com:443,*": {
+            "last_modified": "13397225945150986",
+            "setting": {
+              "lastEngagementTime": 13397050271589498,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://gist.github.com:443,*": {
+            "last_modified": "13397225945150897",
+            "setting": {
+              "lastEngagementTime": 13397082651409914,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.7
+            }
+          },
+          "https://github.com:443,*": {
+            "last_modified": "13397225945150908",
+            "setting": {
+              "lastEngagementTime": 13397196570306342,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 66.19545609927614
+            }
+          },
+          "https://kofler.info:443,*": {
+            "last_modified": "13397225945151028",
+            "setting": {
+              "lastEngagementTime": 13397050299976802,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://pkg.go.dev:443,*": {
+            "last_modified": "13397225945151006",
+            "setting": {
+              "lastEngagementTime": 13397187920045604,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 7.799999999999998
+            }
+          },
+          "https://search.brave.com:443,*": {
+            "last_modified": "13397225945150812",
+            "setting": {
+              "lastEngagementTime": 13397197026155268,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 66.1954560992761
+            }
+          },
+          "https://sso.borgardt.me:443,*": {
+            "last_modified": "13397226007978401",
+            "setting": {
+              "lastEngagementTime": 13397226007978384,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 3.3000000000000003,
+              "rawScore": 7.749214537520729
+            }
+          },
+          "https://stacks.home.borgardt.me:443,*": {
+            "last_modified": "13397225945151105",
+            "setting": {
+              "lastEngagementTime": 13397196790032116,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 5.1
+            }
+          },
+          "https://starship.rs:443,*": {
+            "last_modified": "13397225945151277",
+            "setting": {
+              "lastEngagementTime": 13397186666276956,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 7.975524076296666
+            }
+          },
+          "https://startpage.home.borgardt.me:443,*": {
+            "last_modified": "13397258394597364",
+            "setting": {
+              "lastEngagementTime": 13397258394597344,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 4.2,
+              "rawScore": 6.836829459802088
+            }
+          },
+          "https://sw.kovidgoyal.net:443,*": {
+            "last_modified": "13397225945151153",
+            "setting": {
+              "lastEngagementTime": 13397085177664118,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 5.1
+            }
+          },
+          "https://user-images.githubusercontent.com:443,*": {
+            "last_modified": "13397225945150920",
+            "setting": {
+              "lastEngagementTime": 13397117711455086,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://vifm.info:443,*": {
+            "last_modified": "13397225945151038",
+            "setting": {
+              "lastEngagementTime": 13397186210832416,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 3.9000000000000004
+            }
+          },
+          "https://wiki.archlinux.org:443,*": {
+            "last_modified": "13397225945151221",
+            "setting": {
+              "lastEngagementTime": 13397152494227178,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://wiki.hypr.land:443,*": {
+            "last_modified": "13397225945151070",
+            "setting": {
+              "lastEngagementTime": 1.339711766682967E+16,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 8.99196028266788
+            }
+          },
+          "https://www.ddanieltan.com:443,*": {
+            "last_modified": "13397225945150874",
+            "setting": {
+              "lastEngagementTime": 13397082613459354,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 2.1
+            }
+          },
+          "https://www.gnu.org:443,*": {
+            "last_modified": "13397225945151255",
+            "setting": {
+              "lastEngagementTime": 13397083261759342,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 5.1
+            }
+          },
+          "https://www.google.com:443,*": {
+            "last_modified": "13397225945150954",
+            "setting": {
+              "lastEngagementTime": 13397196399856958,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 3.0
+            }
+          },
+          "https://www.lorenzobettini.it:443,*": {
+            "last_modified": "13397225945151054",
+            "setting": {
+              "lastEngagementTime": 13397051414649038,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 6.299999999999999
+            }
+          },
+          "https://www.nerdfonts.com:443,*": {
+            "last_modified": "13397225945150965",
+            "setting": {
+              "lastEngagementTime": 13397084957092774,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 3.3000000000000003
+            }
+          },
+          "https://www.reddit.com:443,*": {
+            "last_modified": "13397225945150975",
+            "setting": {
+              "lastEngagementTime": 13397153407471938,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 14.70384557194159
+            }
+          },
+          "https://www.twitch.tv:443,*": {
+            "last_modified": "13397225945151309",
+            "setting": {
+              "lastEngagementTime": 13397184255018268,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 15.0
+            }
+          },
+          "https://www.youtube.com:443,*": {
+            "last_modified": "13397225945150996",
+            "setting": {
+              "lastEngagementTime": 13397193895915924,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 0.0,
+              "rawScore": 24.82895025294301
+            }
+          }
+        },
+        "sound": {},
+        "speaker_selection": {},
+        "ssl_cert_decisions": {},
+        "storage_access": {},
+        "storage_access_header_origin_trial": {},
+        "subresource_filter": {},
+        "subresource_filter_data": {},
+        "suspicious_notification_ids": {},
+        "third_party_storage_partitioning": {},
+        "top_level_3pcd_origin_trial": {},
+        "top_level_3pcd_support": {},
+        "top_level_storage_access": {},
+        "trackers": {},
+        "tracking_protection": {},
+        "unused_site_permissions": {},
+        "usb_chooser_data": {},
+        "usb_guard": {},
+        "vr": {},
+        "web_app_installation": {},
+        "webid_api": {},
+        "webid_auto_reauthn": {},
+        "window_placement": {}
+      },
+      "permission_actions": {
+        "notifications": [
+          {
+            "action": 0,
+            "prompt_disposition": 1,
+            "time": "13397164300035616"
+          }
+        ]
+      },
+      "pref_version": 1
+    },
+    "created_by_version": "138.1.80.120",
+    "creation_time": "13396560363446297",
+    "exit_type": "Normal",
+    "family_member_role": "not_in_family",
+    "last_engagement_time": "13397258581625683",
+    "last_time_obsolete_http_credentials_removed": 1752086823.458472,
+    "last_time_password_store_metrics_reported": 1752784044.78437,
+    "managed": {
+      "locally_parent_approved_extensions": {},
+      "locally_parent_approved_extensions_migration_state": 1
+    },
+    "managed_user_id": "",
+    "name": "Mein Brave",
+    "password_hash_data_list": [],
+    "safety_hub_menu_notifications": {
+      "extensions": {
+        "isCurrentlyActive": false,
+        "result": {
+          "timestamp": "13397258577056043",
+          "triggeringExtensions": []
+        }
+      },
+      "notification-permissions": {
+        "isCurrentlyActive": false,
+        "result": {
+          "notificationPermissions": [],
+          "timestamp": "13397258574425831"
+        }
+      },
+      "passwords": {
+        "isCurrentlyActive": false,
+        "result": {
+          "passwordCheckOrigins": [],
+          "timestamp": "13397258571490621"
+        }
+      },
+      "safe-browsing": {
+        "isCurrentlyActive": false,
+        "onlyShowAfterTime": "13396647442162865",
+        "result": {
+          "safeBrowsingStatus": 1,
+          "timestamp": "13397258577056015"
+        }
+      },
+      "unused-site-permissions": {
+        "isCurrentlyActive": false,
+        "result": {
+          "permissions": [],
+          "timestamp": "13397258574425860"
+        }
+      }
+    },
+    "using_default_avatar": false,
+    "using_gaia_avatar": false,
+    "were_old_google_logins_removed": true
+  },
+  "protection": {
+    "macs": {
+      "account_values": {
+        "browser": {
+          "show_home_button": "F6B8688079AA4C4657C3FEDCF3311348C99CB4907EEC8560CC323E4F37D1EA41"
+        },
+        "extensions": {
+          "ui": {
+            "developer_mode": "C4B515ABCB16541C88B522387A89F47E24F150FF18A7256BF19EE2C0896D7555"
+          }
+        },
+        "homepage": "0F156BE8FFEDBF22CC2E394D6BD8DDD392F953D0F397958C64EFA57087182457",
+        "homepage_is_newtabpage": "BAF0DE42A6FEAC5EF6500592AEC92B79DC055C1E352B0F7BAC0BB6E72ECE67D3",
+        "session": {
+          "restore_on_startup": "81940185F7F78D0317AB3741FA4A283985C31DB3BF95D3A4DDD4CD78FC5021F1",
+          "startup_urls": "B41DC391D323AEB2C5465D75AB79284F9F6620BEF161110DE35202261FF03449"
+        }
+      },
+      "brave": {
+        "ad_block": {
+          "developer_mode": "F59142B67502DC56C4D3763941A5F271E22391B134DC3833BE6C25DA10E7804C"
+        }
+      },
+      "browser": {
+        "show_home_button": "904452986128BBEE5A7B1FFB8F342100C3150E3D9FD76C4105DF33EB021E22FD"
+      },
+      "default_search_provider_data": {
+        "template_url_data": "575D258E47F940C6887685ABA99A5839CBFE4BA30863349DFE0D0C375AAB8816"
+      },
+      "enterprise_signin": {
+        "policy_recovery_token": "7D3124ECAF7E96407EB65EAF5A43B02C7EE5F2D4A9FA38A9F371F9E1B74D6383"
+      },
+      "extensions": {
+        "settings": {
+          "ahfgeienlihckogmohjhadlkjgocpleb": "96F0D1F3C750E8DFA036A309A584F829BBCD8C91FE50C4C2225F73521689A6EE",
+          "mhjfbmdgcfjbbpaeojofohoefgiehjai": "9B1B1A40376FFB098E73592262690CD6DCE15F6DE4E2E286CC74C7548B2ED152",
+          "mnojpmjdmbbfmejpflffifhffcmidifd": "2DB225C72EFEF4C2DC8201E3375209054D19911BC859961D6FC1B5A75E65BEFA",
+          "nngceckbapebfimnlniiiahkandclblb": "61706202CC4E10A931714A7AA9CB9C83595AA679DB6CAA316F227C61D58FFEE0"
+        },
+        "ui": {
+          "developer_mode": "55A29C051727FCAC1BDA847CCDE40838B2068CFA589E88819EA9FB17E4BD7320"
+        }
+      },
+      "google": {
+        "services": {
+          "account_id": "E5B4CD7C5FA271A47D07D462465AFD63DBF6A8CDFAFEF4839D13F8F552131486",
+          "last_signed_in_username": "82DB8D884695C643C31778B7B50DBB376848E2F81B5A1AECDA34FD448CECD10D",
+          "last_username": "24FCEF9BF7DF12A2935BE143E58951E09DBAA1D3E0E24430C0FF93009F5D6AFD"
+        }
+      },
+      "homepage": "B1E9FE8108A84F532486D13AAC43C0AFDA16D3DFC9EB2F743AEE11F89F2F163E",
+      "homepage_is_newtabpage": "3680F776D17E3C099431BAF5381FAB9BCC0C2C70FEA4C74D12324BC94A207119",
+      "media": {
+        "storage_id_salt": "E1848263E6199A89D48A7FDF168364BF0F31246A18227F3D149D4088C7F4D667"
+      },
+      "pinned_tabs": "699F1AC92729A024B80605AFC3C63BFB2A35B70C4214581BBE108F851528E9E8",
+      "prefs": {
+        "preference_reset_time": "95C909F3D0669D5931907B455F099C510E7770D9F0BA6FF13E4C76101B44F757"
+      },
+      "safebrowsing": {
+        "incidents_sent": "569707D9A4676B72F48BE92B740BE3EF895419C8A646F1AE1BA70BD9C3B41845"
+      },
+      "search_provider_overrides": "1E1EBA3A4DC28A23BEFCF6ED5D71CE71E9814DD587A305F6B14F72E834AF75DD",
+      "session": {
+        "restore_on_startup": "AB59F1A9CB391932F7B6047BDBE08DCCB63050B3A912DE5B810DA12B56F5E9D2",
+        "startup_urls": "2B78BA071CB67347F4BF884A0839643F774821008AAEB3CC29942F895B73DA9D"
+      }
+    }
+  },
+  "safebrowsing": {
+    "event_timestamps": {
+      "0": {
+        "12": [
+          "13396735683",
+          "13396735824"
+        ]
+      }
+    },
+    "metrics_last_log_time": "13397257614",
+    "scout_reporting_enabled_when_deprecated": false
+  },
+  "safety_hub": {
+    "unused_site_permissions_revocation": {
+      "migration_completed": true
+    }
+  },
+  "saved_tab_groups": {
+    "did_enable_shared_tab_groups_in_last_session": false,
+    "specifics_to_data_migration": true
+  },
+  "savefile": {
+    "default_directory": "/home/aborgardt/Downloads"
+  },
+  "session": {
+    "restore_on_startup": 4,
+    "startup_urls": [
+      "https://startpage.home.borgardt.me/"
+    ]
+  },
+  "sessions": {
+    "event_log": [
+      {
+        "errored_reading": false,
+        "tab_count": 1,
+        "time": "13397079758590153",
+        "type": 1,
+        "window_count": 1
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 0,
+        "time": "13397079788656848",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13397161695713617",
+        "type": 0
+      },
+      {
+        "restore_browser": true,
+        "synchronous": true,
+        "time": "13397161695720422",
+        "type": 5
+      },
+      {
+        "errored_reading": false,
+        "tab_count": 0,
+        "time": "13397161695808132",
+        "type": 1,
+        "window_count": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 0,
+        "time": "13397162779159683",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13397164253375245",
+        "type": 0
+      },
+      {
+        "restore_browser": true,
+        "synchronous": true,
+        "time": "13397164253381974",
+        "type": 5
+      },
+      {
+        "errored_reading": false,
+        "tab_count": 0,
+        "time": "13397164253470672",
+        "type": 1,
+        "window_count": 0
+      },
+      {
+        "crashed": true,
+        "time": "13397225945071483",
+        "type": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 0,
+        "time": "13397257608148315",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13397257614784956",
+        "type": 0
+      },
+      {
+        "restore_browser": true,
+        "synchronous": true,
+        "time": "13397257614792219",
+        "type": 5
+      },
+      {
+        "errored_reading": false,
+        "tab_count": 0,
+        "time": "13397257614894121",
+        "type": 1,
+        "window_count": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 0,
+        "time": "13397257715723189",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13397257720853692",
+        "type": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 1,
+        "time": "13397258421721166",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13397258571300302",
+        "type": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 0,
+        "time": "13397258586568218",
+        "type": 2,
+        "window_count": 1
+      }
+    ],
+    "session_data_status": 3
+  },
+  "settings": {
+    "force_google_safesearch": false
+  },
+  "signin": {
+    "allowed": false,
+    "cookie_clear_on_exit_migration_notice_complete": true
+  },
+  "spellcheck": {
+    "dictionaries": [
+      "de"
+    ],
+    "dictionary": ""
+  },
+  "sync": {
+    "data_type_status_for_sync_to_signin": {
+      "app_list": false,
+      "app_settings": false,
+      "apps": false,
+      "arc_package": false,
+      "autofill": false,
+      "autofill_profiles": false,
+      "autofill_valuable": false,
+      "autofill_wallet": false,
+      "autofill_wallet_credential": false,
+      "autofill_wallet_metadata": false,
+      "autofill_wallet_offer": false,
+      "autofill_wallet_usage": false,
+      "bookmarks": false,
+      "collaboration_group": false,
+      "contact_info": false,
+      "cookies": false,
+      "device_info": false,
+      "dictionary": false,
+      "extension_settings": false,
+      "extensions": false,
+      "history": false,
+      "history_delete_directives": false,
+      "incoming_password_sharing_invitation": false,
+      "managed_user_settings": false,
+      "nigori": false,
+      "os_preferences": false,
+      "os_priority_preferences": false,
+      "outgoing_password_sharing_invitation": false,
+      "passwords": false,
+      "plus_address": false,
+      "plus_address_setting": false,
+      "power_bookmark": false,
+      "preferences": false,
+      "printers": false,
+      "printers_authorization_servers": false,
+      "priority_preferences": false,
+      "product_comparison": false,
+      "reading_list": false,
+      "saved_tab_group": false,
+      "search_engines": false,
+      "security_events": false,
+      "send_tab_to_self": false,
+      "sessions": false,
+      "shared_tab_group_account_data": false,
+      "shared_tab_group_data": false,
+      "sharing_message": false,
+      "themes": false,
+      "user_consent": false,
+      "user_events": false,
+      "web_apps": false,
+      "webapks": false,
+      "webauthn_credential": false,
+      "wifi_configurations": false,
+      "workspace_desk": false
+    },
+    "encryption_bootstrap_token_per_account_migration_done": true,
+    "feature_status_for_sync_to_signin": 5,
+    "passwords_per_account_pref_migration_done": true
+  },
+  "syncing_theme_prefs_migrated_to_non_syncing": true,
+  "tab_group_saves_ui_update_migrated": true,
+  "tab_search": {
+    "tab_index": 1
+  },
+  "toolbar": {
+    "pinned_cast_migration_complete": true,
+    "pinned_chrome_labs_migration_complete": true,
+    "tab_search_migration_complete": true
+  },
+  "total_passwords_available_for_account": 0,
+  "total_passwords_available_for_profile": 0,
+  "translate_accepted_count": {
+    "en": 0
+  },
+  "translate_allowlists": {},
+  "translate_blocked_languages": [
+    "de",
+    "en"
+  ],
+  "translate_denied_count_for_language": {
+    "en": 2
+  },
+  "translate_ignored_count_for_language": {
+    "en": 54
+  },
+  "translate_site_blacklist": [],
+  "translate_site_blocklist_with_time": {},
+  "updateclientdata": {
+    "apps": {
+      "nngceckbapebfimnlniiiahkandclblb": {
+        "cohort": "1::",
+        "cohortname": "",
+        "dlrc": 6772,
+        "installdate": 6764,
+        "pf": "7296a20f-b5be-4623-be85-1d4611280bb1"
+      }
+    }
+  },
+  "updateclientlastupdatecheckerror": -105,
+  "updateclientlastupdatecheckerrorcategory": 5,
+  "updateclientlastupdatecheckerrorextracode1": 0,
+  "web_apps": {
+    "daily_metrics": {
+      "https://startpage.home.borgardt.me/": {
+        "background_duration_sec": 0,
+        "captures_links": false,
+        "effective_display_mode": 3,
+        "foreground_duration_sec": 0,
+        "installed": false,
+        "num_sessions": 0,
+        "promotable": true
+      }
+    },
+    "daily_metrics_date": "13397176800000000",
+    "did_migrate_default_chrome_apps": [
+      "MigrateDefaultChromeAppToWebAppsGSuite",
+      "MigrateDefaultChromeAppToWebAppsNonGSuite"
+    ],
+    "last_preinstall_synchronize_version": "138"
+  }
+}
