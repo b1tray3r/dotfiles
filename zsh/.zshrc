@@ -45,6 +45,7 @@ alias vim="nvim"
 alias gg="lazygit"
 alias sandbox="docker run --rm -d --name webtop -e PUID=$(id -u) -e PGID=$(id -g) -e TZ=Europe/Berlin -v "$HOME":/other -p 3000:3000 --shm-size=2g ghcr.io/linuxserver/webtop:ubuntu-xfce"
 alias s="stow -d /home/aborgardt/workspace/dotfiles/archlinux/hyprland -t $HOME"
+alias ssh="kitty +kitten ssh"
 
 # Functions
 
