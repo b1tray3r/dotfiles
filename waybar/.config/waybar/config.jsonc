@@ -8,10 +8,21 @@
     "gtk-layer-shell": true,
 	"modules-left": ["custom/padd","custom/l_end","wlr/taskbar","mpris","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/l_end","tray","custom/r_end","custom/l_end","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/l_end","tray","custom/r_end","custom/l_end","custom/cliphist","battery","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
+        "battery": {
+            "bat": "BAT0",
+	    "interval": 60,
+	    "states": {
+                "warning": 15,
+                "critical": 7
+	    },
+	    "format": "{capacity}% {time} {icon}",
+	    "format-icons": [" ", " ", " ", " ", " "],
+	    "max-length": 25
+        },
 
 	"wlr/taskbar": {
 		"format": "{icon}",
